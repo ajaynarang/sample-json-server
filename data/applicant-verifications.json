@@ -1,0 +1,48 @@
+{
+	"applicantVerifications": [
+	{
+		"applicationId": "100",
+		"applicantId": "1",
+		"type": "IDV",
+		"desc": "",
+		"requestor": "",
+		"ApprovedYN": "Yes",
+		"overridePersonNumber": "",
+		"overrideReasonCode": "",
+		"resultText": "",
+		"docNumber": "",
+		"createdDateTime": "2019-02-01T18:25:43.511Z",
+		"updatedDateTime": "2019-02-01T18:25:43.511Z"
+	},
+	{
+		"applicationId": "100",
+		"applicantId": "1",
+		"type": "CHEX",
+		"desc": "",
+		"requestor": "",
+		"ApprovedYN": "N",
+		"overridePersonNumber": "",
+		"overrideReasonCode": "",
+		"overrideComment": "",
+		"resultText": "",
+		"docNumber": "",
+		"createdDateTime": "2019-02-01T18:25:43.511Z",
+		"updatedDateTime": "2019-02-01T18:25:43.511Z"
+	},
+	{
+		"applicationId": "100",
+		"applicantId": "1",
+		"type": "OFAC",
+		"desc": "",
+		"requestor": "",
+		"ApprovedYN": "N",
+		"overridePersonNumber": "",
+		"overrideReasonCode": "",
+		"overrideComment": "",
+		"resultText": "",
+		"docNumber": "",
+		"createdDateTime": "2019-02-01T18:25:43.511Z",
+		"updatedDateTime": "2019-02-01T18:25:43.511Z"
+	}
+]
+}

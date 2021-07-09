@@ -1,0 +1,22 @@
+{
+	"applicantPhones": [
+		{
+			"applicationId": "6032",
+			"applicantId": "6031",
+			"type": "HOME",
+			"number": "111-222-3333",
+			"ext": "",
+			"createdDateTime": "2019-02-01T18:25:43.511Z",
+			"updatedDateTime": "2019-02-01T18:25:43.511Z"
+		},
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"type": "CELL",
+			"number": "111-222-4444",
+			"ext": "",
+			"createdDateTime": "2019-02-01T18:25:43.511Z",
+			"updatedDateTime": "2019-02-01T18:25:43.511Z"
+		}
+	]
+}

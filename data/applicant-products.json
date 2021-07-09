@@ -1,0 +1,58 @@
+{
+	"applicantProducts": [
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"productId": "1",
+			"roleCodes": "TO",
+			"amountFunded": "2500",
+			"productType": "SAV",
+			"productCode": "PSAV"
+		},
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"productId": "2",
+			"roleCodes": "JO",
+			"amountFunded": "100",
+			"productType": "SAV",
+			"productCode": "SSAV"
+		},
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"productId": "3",
+			"roleCodes": "TO",
+			"amountFunded": "500",
+			"productType": "SAV",
+			"productCode": "IRA"
+		},
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"productId": "4",
+			"roleCodes": "JO",
+			"amountFunded": "1000",
+			"productType": "CKG",
+			"productCode": "PCKG"
+		},
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"productId": "5",
+			"roleCodes": "TO",
+			"amountFunded": "1500",
+			"productType": "CKG",
+			"productCode": "SCKG"
+		},
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"productId": "6",
+			"roleCodes": "JO",
+			"amountFunded": "10",
+			"productType": "CKG",
+			"productCode": "IRE"
+		}
+	]
+}

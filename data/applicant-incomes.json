@@ -1,0 +1,28 @@
+	{
+		"applicantIncome": [
+			{
+				"applicationId": "6031",
+				"applicantId": "6031",
+				"employmentStatus": "EM",
+				"employer": "rbfcu",
+				"occupationStatus": "h1b",
+				"occupation": "accountant",
+				"annualIncome": "40000",
+				"citizenshipStatus": "greenCard",
+				"originCountry": "india",
+				"incomeSource": "PRIMARY"
+			},
+			{
+				"applicationId": "6031",
+				"applicantId": "6031",
+				"employmentStatus": "EM",
+				"employer": "bank of america",
+				"occupationStatus": "opt",
+				"occupation": "accountant",
+				"annualIncome": "10000",
+				"citizenshipStatus": "citizen",
+				"originCountry": "USA",
+				"incomeSource": "SECONDARY"
+			}
+		]
+	}

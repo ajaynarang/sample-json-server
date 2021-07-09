@@ -1,0 +1,5210 @@
+{
+	"applicationStatuses": [
+		{ "code": "Incomplete", "description": "Incomplete" },
+		{ "code": "Inreview", "description": "In Review" }
+	],
+	"states": [
+		{ "code": "TX", "description": "Texas" },
+		{ "code": "FL", "description": "Florida" },
+		{ "code": "PA", "description": "Pennsylvania" },
+		{ "code": "DE", "description": "Delaware" },
+		{ "code": "CA", "description": "California" },
+		{ "code": "CO", "description": "Colorado" },
+		{ "code": "CT", "description": "Connecticut" },
+		{ "code": "AR", "description": "Arkansas" },
+		{ "code": "DE", "description": "Delaware" },
+		{ "code": "AL", "description": "Alabama" },
+		{ "code": "AZ", "description": "Arizona" },
+		{ "code": "GA", "description": "Georgia" },
+		{ "code": "HI", "description": "Hawaii" },
+		{ "code": "ID", "description": "Idaho" },
+		{ "code": "LA", "description": "Louisiana" },
+		{ "code": "ME", "description": "Maine" },
+		{ "code": "MI", "description": "Michigan" },
+		{ "code": "MS", "description": "Mississippi" },
+		{ "code": "MO", "description": "Missouri" },
+		{ "code": "WA", "description": "Washington" },
+		{ "code": "MT", "description": "Montana" },
+		{ "code": "NE", "description": "Nebraska" },
+		{ "code": "NV", "description": "Nevada" },
+		{ "code": "NH", "description": "New Hampshire" },
+		{ "code": "NJ", "description": "New Jersey" },
+		{ "code": "NM", "description": "New Mexico" },
+		{ "code": "NY", "description": "New York" },
+		{ "code": "NC", "description": "North Carolina" },
+		{ "code": "ND", "description": "North Dakota" },
+		{ "code": "OH", "description": "Ohio" },
+		{ "code": "OK", "description": "Oklahoma" },
+		{ "code": "OR", "description": "Oregon" },
+		{ "code": "RI", "description": "Rhode Island" },
+		{ "code": "SC", "description": "South Carolina" },
+		{ "code": "SD", "description": "South Dakota" },
+		{ "code": "TN", "description": "Tennessee" },
+		{ "code": "UT", "description": "Utah" },
+		{ "code": "VT", "description": "Vermont" },
+		{ "code": "VA", "description": "Virginia" },
+		{ "code": "WV", "description": "West Virginia" },
+		{ "code": "WI", "description": "Wisconsin" },
+		{ "code": "WY", "description": "Wyoming" },
+		{ "code": "MD", "description": "Maryland" },
+		{ "code": "MA", "description": "Massachusetts" },
+		{ "code": "IA", "description": "Iowa" },
+		{ "code": "IL", "description": "Illinois" },
+		{ "code": "KY", "description": "Kentucky" },
+		{ "code": "AK", "description": "Alaska" },
+		{ "code": "KS", "description": "Kansas" },
+		{ "code": "MN", "description": "Minnesota" },
+		{ "code": "IN", "description": "Indiana" }
+	],
+	"occupations": [
+		{
+			"code": "DR",
+			"description": "Doctor"
+		},
+		{
+			"code": "ER",
+			"description": "Engineer"
+		},
+		{
+			"code": "St",
+			"description": "Scientist"
+		}
+	],
+	"residenceTypes": [
+		{
+			"code": "Permanent",
+			"description": "Permanent Resident"
+		},
+		{
+			"code": "Alien",
+			"description": "Resident Alien"
+		}
+	],
+	"identificationDocumentTypes": [
+		{
+			"code": "ID",
+			"description": "State ID"
+		},
+		{
+			"code": "DL",
+			"description": "Driving License"
+		}
+	],
+	"employmentStatuses": [
+		{
+			"code": "Emp",
+			"description": "Employed"
+		},
+		{
+			"code": "Unemp",
+			"description": "Unemployed"
+		}
+	],
+	"employmentStatusesWithOccupations": [
+		{
+			"code": "MI",
+			"description": "Active Military",
+			"occupations": [
+				{
+					"code": "military_contractor",
+					"description": "Military Contractor"
+				},
+				{
+					"code": "military_serviceman",
+					"description": "Military Serviceman"
+				}
+			]
+		},
+		{
+			"code": "EM",
+			"description": "Employed",
+			"occupations": [
+				{
+					"code": "academic_advisor",
+					"description": "Academic Advisor"
+				},
+				{
+					"code": "accountant",
+					"description": "Accountant"
+				},
+				{
+					"code": "accounting_clerk",
+					"description": "Accounting Clerk"
+				},
+				{
+					"code": "actor",
+					"description": "Actor"
+				},
+				{
+					"code": "actress",
+					"description": "Actress"
+				},
+				{
+					"code": "acupuncturist",
+					"description": "Acupuncturist"
+				},
+				{
+					"code": "administrative_assistant",
+					"description": "Administrative Assistant"
+				},
+				{
+					"code": "adult_entertainer",
+					"description": "Adult Entertainer"
+				},
+				{
+					"code": "advertising_and_marketing_emp",
+					"description": "Advertising and Marketing Emp"
+				},
+				{
+					"code": "agricultural_worker",
+					"description": "Agricultural Worker"
+				},
+				{
+					"code": "airline_ticket_agent",
+					"description": "Airline Ticket Agent"
+				},
+				{
+					"code": "airplane_mechanic",
+					"description": "Airplane Mechanic"
+				},
+				{
+					"code": "air_traffic_controller",
+					"description": "Air Traffic Controller"
+				},
+				{
+					"code": "anesthesiologist",
+					"description": "Anesthesiologist"
+				},
+				{
+					"code": "animal_control_worker",
+					"description": "Animal Control Worker"
+				},
+				{
+					"code": "animal_groomer",
+					"description": "Animal Groomer"
+				},
+				{
+					"code": "animal_shelter_worker",
+					"description": "Animal Shelter Worker"
+				},
+				{
+					"code": "animal_trainer",
+					"description": "Animal Trainer"
+				},
+				{
+					"code": "apartment_manager",
+					"description": "Apartment Manager"
+				},
+				{
+					"code": "appraiser",
+					"description": "Appraiser"
+				},
+				{
+					"code": "archeologist",
+					"description": "Archeologist"
+				},
+				{
+					"code": "architect",
+					"description": "Architect"
+				},
+				{
+					"code": "asbestos_abatement_worker",
+					"description": "Asbestos Abatement Worker"
+				},
+				{
+					"code": "assembler_and_fabricator",
+					"description": "Assembler and Fabricator"
+				},
+				{
+					"code": "athletic_trainer",
+					"description": "Athletic Trainer"
+				},
+				{
+					"code": "attorney",
+					"description": "Attorney"
+				},
+				{
+					"code": "auditor",
+					"description": "Auditor"
+				},
+				{
+					"code": "author",
+					"description": "Author"
+				},
+				{
+					"code": "auto_service_tech_and_repairer",
+					"description": "Auto Service Tech and Repairer"
+				},
+				{
+					"code": "bail_bondsmen",
+					"description": "Bail Bondsmen"
+				},
+				{
+					"code": "baker",
+					"description": "Baker"
+				},
+				{
+					"code": "bank_teller",
+					"description": "Bank Teller"
+				},
+				{
+					"code": "barber",
+					"description": "Barber"
+				},
+				{
+					"code": "bartender",
+					"description": "Bartender"
+				},
+				{
+					"code": "bar_back",
+					"description": "Bar Back"
+				},
+				{
+					"code": "bed_and_breakfast_innkeeper",
+					"description": "Bed and Breakfast Innkeeper"
+				},
+				{
+					"code": "bill_and_account_collector",
+					"description": "Bill and Account Collector"
+				},
+				{
+					"code": "bodyguard",
+					"description": "Bodyguard"
+				},
+				{
+					"code": "bookkeeper",
+					"description": "Bookkeeper"
+				},
+				{
+					"code": "bouncer",
+					"description": "Bouncer"
+				},
+				{
+					"code": "brand_ambassador",
+					"description": "Brand Ambassador"
+				},
+				{
+					"code": "budget_analyst",
+					"description": "Budget Analyst"
+				},
+				{
+					"code": "busser",
+					"description": "Busser"
+				},
+				{
+					"code": "bus_driver",
+					"description": "Bus Driver"
+				},
+				{
+					"code": "butcher",
+					"description": "Butcher"
+				},
+				{
+					"code": "cafeteria_server",
+					"description": "Cafeteria Server"
+				},
+				{
+					"code": "call_center",
+					"description": "Call Center"
+				},
+				{
+					"code": "carpenter",
+					"description": "Carpenter"
+				},
+				{
+					"code": "carpet_or_floor_or_tile_installer",
+					"description": "Carpet Or Floor Or Tile Installer"
+				},
+				{
+					"code": "car_wash_attendant",
+					"description": "Car Wash Attendant"
+				},
+				{
+					"code": "case_manager",
+					"description": "Case Manager"
+				},
+				{
+					"code": "cashier",
+					"description": "Cashier"
+				},
+				{
+					"code": "certified_nurse_assistant_cna",
+					"description": "Certified Nurse Assistant CNA"
+				},
+				{
+					"code": "certified_public_accountant",
+					"description": "Certified Public Accountant"
+				},
+				{
+					"code": "chef",
+					"description": "Chef"
+				},
+				{
+					"code": "chemist",
+					"description": "Chemist"
+				},
+				{
+					"code": "childcare_provider",
+					"description": "Childcare Provider"
+				},
+				{
+					"code": "childcare_worker",
+					"description": "Childcare Worker"
+				},
+				{
+					"code": "chiropractor",
+					"description": "Chiropractor"
+				},
+				{
+					"code": "choreographer",
+					"description": "Choreographer"
+				},
+				{
+					"code": "city_official",
+					"description": "City Official"
+				},
+				{
+					"code": "claims_adjuster",
+					"description": "Claims Adjuster"
+				},
+				{
+					"code": "clergy",
+					"description": "Clergy"
+				},
+				{
+					"code": "clinical_laboratory_tech",
+					"description": "Clinical Laboratory Tech"
+				},
+				{
+					"code": "coach",
+					"description": "Coach"
+				},
+				{
+					"code": "coat_or_paint_machine_operator",
+					"description": "Coat Or Paint Machine Operator"
+				},
+				{
+					"code": "coin_or_vending_machine_servicer",
+					"description": "Coin Or Vending Machine Servicer"
+				},
+				{
+					"code": "computer_programmer",
+					"description": "Computer Programmer"
+				},
+				{
+					"code": "computer_repairer",
+					"description": "Computer Repairer"
+				},
+				{
+					"code": "computer_technician",
+					"description": "Computer Technician"
+				},
+				{
+					"code": "concierge",
+					"description": "Concierge"
+				},
+				{
+					"code": "construction_worker",
+					"description": "Construction Worker"
+				},
+				{
+					"code": "contractor",
+					"description": "Contractor"
+				},
+				{
+					"code": "cook_or_food_preparation_worker",
+					"description": "Cook Or Food Preparation Worker"
+				},
+				{
+					"code": "cosmetologist",
+					"description": "Cosmetologist"
+				},
+				{
+					"code": "counselor",
+					"description": "Counselor"
+				},
+				{
+					"code": "counter_attendant",
+					"description": "Counter Attendant"
+				},
+				{
+					"code": "courier_and_messanger",
+					"description": "Courier and Messanger"
+				},
+				{
+					"code": "court_reporter",
+					"description": "Court Reporter"
+				},
+				{
+					"code": "crane_operator",
+					"description": "Crane Operator"
+				},
+				{
+					"code": "creative_space_analyst",
+					"description": "Creative Space Analyst"
+				},
+				{
+					"code": "crime_scene_tech",
+					"description": "Crime Scene Tech"
+				},
+				{
+					"code": "crop_duster",
+					"description": "Crop Duster"
+				},
+				{
+					"code": "custodian_and_janitor",
+					"description": "Custodian and Janitor"
+				},
+				{
+					"code": "customer_service_rep",
+					"description": "Customer Service Rep"
+				},
+				{
+					"code": "data_input_clerk",
+					"description": "Data Input Clerk"
+				},
+				{
+					"code": "debt_management_counselor",
+					"description": "Debt Management Counselor"
+				},
+				{
+					"code": "decontamination_worker",
+					"description": "Decontamination Worker"
+				},
+				{
+					"code": "delivery_services_driver",
+					"description": "Delivery Services Driver"
+				},
+				{
+					"code": "dental_assistant",
+					"description": "Dental Assistant"
+				},
+				{
+					"code": "dentist",
+					"description": "Dentist"
+				},
+				{
+					"code": "dietitian_and_nutritionist",
+					"description": "Dietitian and Nutritionist"
+				},
+				{
+					"code": "director",
+					"description": "Director"
+				},
+				{
+					"code": "disabled",
+					"description": "Disabled"
+				},
+				{
+					"code": "dishwasher",
+					"description": "Dishwasher"
+				},
+				{
+					"code": "dispatcher",
+					"description": "Dispatcher"
+				},
+				{
+					"code": "doctor",
+					"description": "Doctor"
+				},
+				{
+					"code": "driver",
+					"description": "Driver"
+				},
+				{
+					"code": "driving_instructor",
+					"description": "Driving Instructor"
+				},
+				{
+					"code": "drywall_or_ceiling_or_tile_installer",
+					"description": "Drywall Or Ceiling Or Tile Installer"
+				},
+				{
+					"code": "dry_cleaning_worker",
+					"description": "Dry Cleaning Worker"
+				},
+				{
+					"code": "editor",
+					"description": "Editor"
+				},
+				{
+					"code": "education_administrator",
+					"description": "Education Administrator"
+				},
+				{
+					"code": "electrician",
+					"description": "Electrician"
+				},
+				{
+					"code": "elevator_operator",
+					"description": "Elevator Operator"
+				},
+				{
+					"code": "emergency_dispatcher",
+					"description": "Emergency Dispatcher"
+				},
+				{
+					"code": "emt",
+					"description": "EMT"
+				},
+				{
+					"code": "engineer",
+					"description": "Engineer"
+				},
+				{
+					"code": "entertainment_director",
+					"description": "Entertainment Director"
+				},
+				{
+					"code": "entertainment_usher_or_lobby_atte",
+					"description": "Entertainment Usher Or Lobby Atte"
+				},
+				{
+					"code": "executive",
+					"description": "Executive"
+				},
+				{
+					"code": "explosives_worker",
+					"description": "Explosives Worker"
+				},
+				{
+					"code": "exterminators",
+					"description": "Exterminators"
+				},
+				{
+					"code": "facility_attendant",
+					"description": "Facility Attendant"
+				},
+				{
+					"code": "farmer",
+					"description": "Farmer"
+				},
+				{
+					"code": "fashion_designer",
+					"description": "Fashion Designer"
+				},
+				{
+					"code": "fence_installer",
+					"description": "Fence Installer"
+				},
+				{
+					"code": "ferry_boat_operator",
+					"description": "Ferry Boat Operator"
+				},
+				{
+					"code": "field_technician",
+					"description": "Field Technician"
+				},
+				{
+					"code": "film_critic",
+					"description": "Film Critic"
+				},
+				{
+					"code": "film_editor",
+					"description": "Film Editor"
+				},
+				{
+					"code": "film_maker",
+					"description": "Film Maker"
+				},
+				{
+					"code": "film_projector_operator",
+					"description": "Film Projector Operator"
+				},
+				{
+					"code": "financial_analyst",
+					"description": "Financial Analyst"
+				},
+				{
+					"code": "financial_clerk",
+					"description": "Financial Clerk"
+				},
+				{
+					"code": "financial_examiner",
+					"description": "Financial Examiner"
+				},
+				{
+					"code": "firefighter",
+					"description": "Firefighter"
+				},
+				{
+					"code": "fire_alarm_installer",
+					"description": "Fire Alarm Installer"
+				},
+				{
+					"code": "fire_sprinkler_installer",
+					"description": "Fire Sprinkler Installer"
+				},
+				{
+					"code": "fisherman",
+					"description": "Fisherman"
+				},
+				{
+					"code": "fishing_and_hunting_guide",
+					"description": "Fishing and Hunting Guide"
+				},
+				{
+					"code": "fish_and_game_warden",
+					"description": "Fish and Game Warden"
+				},
+				{
+					"code": "fish_hatchery_warden",
+					"description": "Fish Hatchery Warden"
+				},
+				{
+					"code": "fitness_trainer",
+					"description": "Fitness Trainer"
+				},
+				{
+					"code": "flight_attendant",
+					"description": "Flight Attendant"
+				},
+				{
+					"code": "flight_instructor",
+					"description": "Flight Instructor"
+				},
+				{
+					"code": "flight_paramedic",
+					"description": "Flight Paramedic"
+				},
+				{
+					"code": "florist",
+					"description": "Florist"
+				},
+				{
+					"code": "food_preparation_worker",
+					"description": "Food Preparation Worker"
+				},
+				{
+					"code": "food_server",
+					"description": "Food Server"
+				},
+				{
+					"code": "fumigator",
+					"description": "Fumigator"
+				},
+				{
+					"code": "funeral_director",
+					"description": "Funeral Director"
+				},
+				{
+					"code": "furniture_assembler",
+					"description": "Furniture Assembler"
+				},
+				{
+					"code": "glass_cutting_worker",
+					"description": "Glass Cutting Worker"
+				},
+				{
+					"code": "glazer",
+					"description": "Glazer"
+				},
+				{
+					"code": "grounds_maintenance",
+					"description": "Grounds Maintenance"
+				},
+				{
+					"code": "hairdresser",
+					"description": "Hairdresser"
+				},
+				{
+					"code": "hazardous_materials_remover",
+					"description": "Hazardous Materials Remover"
+				},
+				{
+					"code": "heating_and_air_conditioning_wor",
+					"description": "Heating and Air Conditioning Wor"
+				},
+				{
+					"code": "heavy_veh_or_mobile_service_tech",
+					"description": "Heavy Veh Or Mobile Service Tech"
+				},
+				{
+					"code": "help_desk_technician",
+					"description": "Help Desk Technician"
+				},
+				{
+					"code": "home_builder",
+					"description": "Home Builder"
+				},
+				{
+					"code": "home_inspector",
+					"description": "Home Inspector"
+				},
+				{
+					"code": "hospital_administrator",
+					"description": "Hospital Administrator"
+				},
+				{
+					"code": "hostess",
+					"description": "Hostess"
+				},
+				{
+					"code": "hotel_guest_service_agent",
+					"description": "Hotel Guest Service Agent"
+				},
+				{
+					"code": "hotel_manager",
+					"description": "Hotel Manager"
+				},
+				{
+					"code": "human_resources",
+					"description": "Human Resources"
+				},
+				{
+					"code": "ice_cream_vendor",
+					"description": "Ice Cream Vendor"
+				},
+				{
+					"code": "income_tax_advisor",
+					"description": "Income Tax Advisor"
+				},
+				{
+					"code": "income_tax_preparer",
+					"description": "Income Tax Preparer"
+				},
+				{
+					"code": "information_systems_analyst",
+					"description": "Information Systems Analyst"
+				},
+				{
+					"code": "instructor",
+					"description": "Instructor"
+				},
+				{
+					"code": "insurance_claims_adjuster",
+					"description": "Insurance Claims Adjuster"
+				},
+				{
+					"code": "internal_revenue_service_agent",
+					"description": "Internal Revenue Service Agent"
+				},
+				{
+					"code": "interpreter",
+					"description": "Interpreter"
+				},
+				{
+					"code": "investment_services_rep",
+					"description": "Investment Services Rep"
+				},
+				{
+					"code": "jewel_or_stone_or_metal_worker",
+					"description": "Jewel Or Stone Or Metal Worker"
+				},
+				{
+					"code": "judge",
+					"description": "Judge"
+				},
+				{
+					"code": "landscaper",
+					"description": "Landscaper"
+				},
+				{
+					"code": "lawyer",
+					"description": "Lawyer"
+				},
+				{
+					"code": "law_enforcement_officer",
+					"description": "Law Enforcement Officer"
+				},
+				{
+					"code": "legal_assistant",
+					"description": "Legal Assistant"
+				},
+				{
+					"code": "librarian",
+					"description": "Librarian"
+				},
+				{
+					"code": "licensed_registered_nurse_lvn",
+					"description": "Licensed Registered Nurse LVN"
+				},
+				{
+					"code": "lifeguard",
+					"description": "Lifeguard"
+				},
+				{
+					"code": "livestock_buyer",
+					"description": "Livestock Buyer"
+				},
+				{
+					"code": "loan_officer",
+					"description": "Loan Officer"
+				},
+				{
+					"code": "locksmith_and_safe_repairer",
+					"description": "Locksmith and Safe Repairer"
+				},
+				{
+					"code": "machine_operator",
+					"description": "Machine Operator"
+				},
+				{
+					"code": "magician",
+					"description": "Magician"
+				},
+				{
+					"code": "maid_and_housekeeper",
+					"description": "Maid and Housekeeper"
+				},
+				{
+					"code": "maintenance_and_repair_worker",
+					"description": "Maintenance and Repair Worker"
+				},
+				{
+					"code": "management_consultant",
+					"description": "Management Consultant"
+				},
+				{
+					"code": "manager_or_supervisor",
+					"description": "Manager Or Supervisor"
+				},
+				{
+					"code": "manufactured_builiding_install",
+					"description": "Manufactured Builiding Install"
+				},
+				{
+					"code": "market_research_analyst",
+					"description": "Market Research Analyst"
+				},
+				{
+					"code": "massage_therapist",
+					"description": "Massage Therapist"
+				},
+				{
+					"code": "mechanic",
+					"description": "Mechanic"
+				},
+				{
+					"code": "mediator",
+					"description": "Mediator"
+				},
+				{
+					"code": "media_and_communication_worker",
+					"description": "Media and Communication Worker"
+				},
+				{
+					"code": "medical_assistant",
+					"description": "Medical Assistant"
+				},
+				{
+					"code": "medical_orderlies",
+					"description": "Medical Orderlies"
+				},
+				{
+					"code": "medical_or_health_services_manage",
+					"description": "Medical Or Health Services Manage"
+				},
+				{
+					"code": "medical_technician",
+					"description": "Medical Technician"
+				},
+				{
+					"code": "merchandise_distributor",
+					"description": "Merchandise Distributor"
+				},
+				{
+					"code": "meteorologist",
+					"description": "Meteorologist"
+				},
+				{
+					"code": "military_contractor",
+					"description": "Military Contractor"
+				},
+				{
+					"code": "military_serviceman",
+					"description": "Military Serviceman"
+				},
+				{
+					"code": "miner",
+					"description": "Miner"
+				},
+				{
+					"code": "minor",
+					"description": "Minor"
+				},
+				{
+					"code": "missionaries",
+					"description": "Missionaries"
+				},
+				{
+					"code": "model",
+					"description": "Model"
+				},
+				{
+					"code": "mortician",
+					"description": "Mortician"
+				},
+				{
+					"code": "musical_instrument_repairer",
+					"description": "Musical Instrument Repairer"
+				},
+				{
+					"code": "musician",
+					"description": "Musician"
+				},
+				{
+					"code": "nail_technician",
+					"description": "Nail Technician"
+				},
+				{
+					"code": "network_administrator",
+					"description": "Network Administrator"
+				},
+				{
+					"code": "news_anchor",
+					"description": "News Anchor"
+				},
+				{
+					"code": "nurse",
+					"description": "Nurse"
+				},
+				{
+					"code": "nurses_aide",
+					"description": "Nurses Aide"
+				},
+				{
+					"code": "nutritionist",
+					"description": "Nutritionist"
+				},
+				{
+					"code": "occupational_therapist",
+					"description": "Occupational Therapist"
+				},
+				{
+					"code": "office_assistant",
+					"description": "Office Assistant"
+				},
+				{
+					"code": "office_manager",
+					"description": "Office Manager"
+				},
+				{
+					"code": "oil_rigger",
+					"description": "Oil Rigger"
+				},
+				{
+					"code": "operations_analyst",
+					"description": "Operations Analyst"
+				},
+				{
+					"code": "operations_manager",
+					"description": "Operations Manager"
+				},
+				{
+					"code": "operator",
+					"description": "Operator"
+				},
+				{
+					"code": "packaging_or_filling_machine_oper",
+					"description": "Packaging Or Filling Machine Oper"
+				},
+				{
+					"code": "painter",
+					"description": "Painter"
+				},
+				{
+					"code": "paralegal",
+					"description": "Paralegal"
+				},
+				{
+					"code": "paramedic",
+					"description": "Paramedic"
+				},
+				{
+					"code": "parking_attendant",
+					"description": "Parking Attendant"
+				},
+				{
+					"code": "patient_care_tech",
+					"description": "Patient Care Tech"
+				},
+				{
+					"code": "paving_or_surfacing_equip_oper",
+					"description": "Paving Or Surfacing Equip Oper"
+				},
+				{
+					"code": "personal_financial_advisor",
+					"description": "Personal Financial Advisor"
+				},
+				{
+					"code": "pest_control",
+					"description": "Pest Control"
+				},
+				{
+					"code": "pharmacist",
+					"description": "Pharmacist"
+				},
+				{
+					"code": "pharmacy_clerk",
+					"description": "Pharmacy Clerk"
+				},
+				{
+					"code": "photographer",
+					"description": "Photographer"
+				},
+				{
+					"code": "physical_therapist",
+					"description": "Physical Therapist"
+				},
+				{
+					"code": "physician_and_surgeon",
+					"description": "Physician and Surgeon"
+				},
+				{
+					"code": "pilot",
+					"description": "Pilot"
+				},
+				{
+					"code": "pipefitter",
+					"description": "Pipefitter"
+				},
+				{
+					"code": "pipe_layer",
+					"description": "Pipe Layer"
+				},
+				{
+					"code": "plumber",
+					"description": "Plumber"
+				},
+				{
+					"code": "postal_worker",
+					"description": "Postal Worker"
+				},
+				{
+					"code": "private_investigator",
+					"description": "Private Investigator"
+				},
+				{
+					"code": "probation_officer",
+					"description": "Probation Officer"
+				},
+				{
+					"code": "product_specialist",
+					"description": "Product Specialist"
+				},
+				{
+					"code": "professional_athlete",
+					"description": "Professional Athlete"
+				},
+				{
+					"code": "project_manager",
+					"description": "Project Manager"
+				},
+				{
+					"code": "property_appraiser",
+					"description": "Property Appraiser"
+				},
+				{
+					"code": "property_manager",
+					"description": "Property Manager"
+				},
+				{
+					"code": "psychic",
+					"description": "Psychic"
+				},
+				{
+					"code": "pump_operator",
+					"description": "Pump Operator"
+				},
+				{
+					"code": "radio_disk_jockey",
+					"description": "Radio Disk Jockey"
+				},
+				{
+					"code": "radio_or_tower_equip_installer",
+					"description": "Radio Or Tower Equip Installer"
+				},
+				{
+					"code": "railroad_worker",
+					"description": "Railroad Worker"
+				},
+				{
+					"code": "rancher",
+					"description": "Rancher"
+				},
+				{
+					"code": "ranch_hand",
+					"description": "Ranch Hand"
+				},
+				{
+					"code": "rbfcu_employee",
+					"description": "RBFCU Employee"
+				},
+				{
+					"code": "realtor",
+					"description": "Realtor"
+				},
+				{
+					"code": "records_manager",
+					"description": "Records Manager"
+				},
+				{
+					"code": "recruiter",
+					"description": "Recruiter"
+				},
+				{
+					"code": "registered_nurse_rn",
+					"description": "Registered Nurse RN"
+				},
+				{
+					"code": "reporter",
+					"description": "Reporter"
+				},
+				{
+					"code": "repossessor",
+					"description": "Repossessor"
+				},
+				{
+					"code": "researcher",
+					"description": "Researcher"
+				},
+				{
+					"code": "restaurant_manager",
+					"description": "Restaurant Manager"
+				},
+				{
+					"code": "retail_manager",
+					"description": "Retail Manager"
+				},
+				{
+					"code": "retail_worker",
+					"description": "Retail Worker"
+				},
+				{
+					"code": "roofer",
+					"description": "Roofer"
+				},
+				{
+					"code": "sales_agent",
+					"description": "Sales Agent"
+				},
+				{
+					"code": "school_counselor",
+					"description": "School Counselor"
+				},
+				{
+					"code": "secretary",
+					"description": "Secretary"
+				},
+				{
+					"code": "security_and_firm_alarm_install",
+					"description": "Security and Firm Alarm Install"
+				},
+				{
+					"code": "security_officer",
+					"description": "Security Officer"
+				},
+				{
+					"code": "septic_tank_servicer",
+					"description": "Septic Tank Servicer"
+				},
+				{
+					"code": "sewer_pipe_cleaner",
+					"description": "Sewer Pipe Cleaner"
+				},
+				{
+					"code": "shoe_and_leather_worker",
+					"description": "Shoe and Leather Worker"
+				},
+				{
+					"code": "sketch_artist",
+					"description": "Sketch Artist"
+				},
+				{
+					"code": "social_worker",
+					"description": "Social Worker"
+				},
+				{
+					"code": "software_developer",
+					"description": "Software Developer"
+				},
+				{
+					"code": "speech_therapist",
+					"description": "Speech Therapist"
+				},
+				{
+					"code": "state_official",
+					"description": "State Official"
+				},
+				{
+					"code": "surveyor",
+					"description": "Surveyor"
+				},
+				{
+					"code": "tailor_or_dressmaker_or_sewers",
+					"description": "Tailor Or Dressmaker Or Sewers"
+				},
+				{
+					"code": "tattoo_artist",
+					"description": "Tattoo Artist"
+				},
+				{
+					"code": "taxi_driver",
+					"description": "Taxi Driver"
+				},
+				{
+					"code": "tax_assossors",
+					"description": "Tax Assossors"
+				},
+				{
+					"code": "teacher_aide",
+					"description": "Teacher Aide"
+				},
+				{
+					"code": "teacher_or_professor",
+					"description": "Teacher Or Professor"
+				},
+				{
+					"code": "textile_worker",
+					"description": "Textile Worker"
+				},
+				{
+					"code": "theme_park_employee",
+					"description": "Theme Park Employee"
+				},
+				{
+					"code": "tour_guides",
+					"description": "Tour Guides"
+				},
+				{
+					"code": "translators",
+					"description": "Translators"
+				},
+				{
+					"code": "transportation_or_material_moving",
+					"description": "Transportation Or Material Moving"
+				},
+				{
+					"code": "travel_agent",
+					"description": "Travel Agent"
+				},
+				{
+					"code": "tree_trimmers",
+					"description": "Tree Trimmers"
+				},
+				{
+					"code": "truck_driver",
+					"description": "Truck Driver"
+				},
+				{
+					"code": "upholsterers",
+					"description": "Upholsterers"
+				},
+				{
+					"code": "veterinarian",
+					"description": "Veterinarian"
+				},
+				{
+					"code": "waiter",
+					"description": "Waiter"
+				},
+				{
+					"code": "warehouse_worker_attd",
+					"description": "Warehouse Worker Attd"
+				},
+				{
+					"code": "waste_management_worker",
+					"description": "Waste Management Worker"
+				},
+				{
+					"code": "web_developer",
+					"description": "Web Developer"
+				},
+				{
+					"code": "wedding_planner",
+					"description": "Wedding Planner"
+				},
+				{
+					"code": "welder",
+					"description": "Welder"
+				},
+				{
+					"code": "writer",
+					"description": "Writer"
+				},
+				{
+					"code": "xray_technician",
+					"description": "X-Ray Technician"
+				},
+				{
+					"code": "yoga_instructor",
+					"description": "Yoga Instructor"
+				},
+				{
+					"code": "youth_ministry_director",
+					"description": "Youth Ministry Director"
+				},
+				{
+					"code": "youth_program_director",
+					"description": "Youth Program Director"
+				},
+				{
+					"code": "zookeeper",
+					"description": "Zookeeper"
+				},
+				{
+					"code": "zoologist",
+					"description": "Zoologist"
+				}
+			]
+		},
+		{
+			"code": "GOV",
+			"description": "Government/DOD",
+			"occupations": [
+				{
+					"code": "government_official",
+					"description": "Government Official"
+				}
+			]
+		},
+		{
+			"code": "HO",
+			"description": "Homemaker",
+			"occupations": [
+				{
+					"code": "homemaker",
+					"description": "Homemaker"
+				}
+			]
+		},
+		{
+			"code": "SE",
+			"description": "Self Employed",
+			"occupations": [
+				{
+					"code": "business_owner",
+					"description": "Business Owner"
+				}
+			]
+		},
+		{
+			"code": "RE",
+			"description": "Retired",
+			"occupations": [
+				{
+					"code": "academic_advisor",
+					"description": "Academic Advisor"
+				},
+				{
+					"code": "accountant",
+					"description": "Accountant"
+				},
+				{
+					"code": "accounting_clerk",
+					"description": "Accounting Clerk"
+				},
+				{
+					"code": "actor",
+					"description": "Actor"
+				},
+				{
+					"code": "actress",
+					"description": "Actress"
+				},
+				{
+					"code": "acupuncturist",
+					"description": "Acupuncturist"
+				},
+				{
+					"code": "administrative_assistant",
+					"description": "Administrative Assistant"
+				},
+				{
+					"code": "adult_entertainer",
+					"description": "Adult Entertainer"
+				},
+				{
+					"code": "advertising_and_marketing_emp",
+					"description": "Advertising and Marketing Emp"
+				},
+				{
+					"code": "agricultural_worker",
+					"description": "Agricultural Worker"
+				},
+				{
+					"code": "airline_ticket_agent",
+					"description": "Airline Ticket Agent"
+				},
+				{
+					"code": "airplane_mechanic",
+					"description": "Airplane Mechanic"
+				},
+				{
+					"code": "air_traffic_controller",
+					"description": "Air Traffic Controller"
+				},
+				{
+					"code": "anesthesiologist",
+					"description": "Anesthesiologist"
+				},
+				{
+					"code": "animal_control_worker",
+					"description": "Animal Control Worker"
+				},
+				{
+					"code": "animal_groomer",
+					"description": "Animal Groomer"
+				},
+				{
+					"code": "animal_shelter_worker",
+					"description": "Animal Shelter Worker"
+				},
+				{
+					"code": "animal_trainer",
+					"description": "Animal Trainer"
+				},
+				{
+					"code": "apartment_manager",
+					"description": "Apartment Manager"
+				},
+				{
+					"code": "appraiser",
+					"description": "Appraiser"
+				},
+				{
+					"code": "archeologist",
+					"description": "Archeologist"
+				},
+				{
+					"code": "architect",
+					"description": "Architect"
+				},
+				{
+					"code": "asbestos_abatement_worker",
+					"description": "Asbestos Abatement Worker"
+				},
+				{
+					"code": "assembler_and_fabricator",
+					"description": "Assembler and Fabricator"
+				},
+				{
+					"code": "athletic_trainer",
+					"description": "Athletic Trainer"
+				},
+				{
+					"code": "attorney",
+					"description": "Attorney"
+				},
+				{
+					"code": "auditor",
+					"description": "Auditor"
+				},
+				{
+					"code": "author",
+					"description": "Author"
+				},
+				{
+					"code": "auto_service_tech_and_repairer",
+					"description": "Auto Service Tech and Repairer"
+				},
+				{
+					"code": "bail_bondsmen",
+					"description": "Bail Bondsmen"
+				},
+				{
+					"code": "baker",
+					"description": "Baker"
+				},
+				{
+					"code": "bank_teller",
+					"description": "Bank Teller"
+				},
+				{
+					"code": "barber",
+					"description": "Barber"
+				},
+				{
+					"code": "bartender",
+					"description": "Bartender"
+				},
+				{
+					"code": "bar_back",
+					"description": "Bar Back"
+				},
+				{
+					"code": "bed_and_breakfast_innkeeper",
+					"description": "Bed and Breakfast Innkeeper"
+				},
+				{
+					"code": "bill_and_account_collector",
+					"description": "Bill and Account Collector"
+				},
+				{
+					"code": "bodyguard",
+					"description": "Bodyguard"
+				},
+				{
+					"code": "bookkeeper",
+					"description": "Bookkeeper"
+				},
+				{
+					"code": "bouncer",
+					"description": "Bouncer"
+				},
+				{
+					"code": "brand_ambassador",
+					"description": "Brand Ambassador"
+				},
+				{
+					"code": "budget_analyst",
+					"description": "Budget Analyst"
+				},
+				{
+					"code": "business_owner",
+					"description": "Business Owner"
+				},
+				{
+					"code": "busser",
+					"description": "Busser"
+				},
+				{
+					"code": "bus_driver",
+					"description": "Bus Driver"
+				},
+				{
+					"code": "butcher",
+					"description": "Butcher"
+				},
+				{
+					"code": "cafeteria_server",
+					"description": "Cafeteria Server"
+				},
+				{
+					"code": "call_center",
+					"description": "Call Center"
+				},
+				{
+					"code": "carpenter",
+					"description": "Carpenter"
+				},
+				{
+					"code": "carpet_or_floor_or_tile_installer",
+					"description": "Carpet Or Floor Or Tile Installer"
+				},
+				{
+					"code": "car_wash_attendant",
+					"description": "Car Wash Attendant"
+				},
+				{
+					"code": "case_manager",
+					"description": "Case Manager"
+				},
+				{
+					"code": "cashier",
+					"description": "Cashier"
+				},
+				{
+					"code": "certified_nurse_assistant_cna",
+					"description": "Certified Nurse Assistant CNA"
+				},
+				{
+					"code": "certified_public_accountant",
+					"description": "Certified Public Accountant"
+				},
+				{
+					"code": "chef",
+					"description": "Chef"
+				},
+				{
+					"code": "chemist",
+					"description": "Chemist"
+				},
+				{
+					"code": "childcare_provider",
+					"description": "Childcare Provider"
+				},
+				{
+					"code": "childcare_worker",
+					"description": "Childcare Worker"
+				},
+				{
+					"code": "chiropractor",
+					"description": "Chiropractor"
+				},
+				{
+					"code": "choreographer",
+					"description": "Choreographer"
+				},
+				{
+					"code": "city_official",
+					"description": "City Official"
+				},
+				{
+					"code": "claims_adjuster",
+					"description": "Claims Adjuster"
+				},
+				{
+					"code": "clergy",
+					"description": "Clergy"
+				},
+				{
+					"code": "clinical_laboratory_tech",
+					"description": "Clinical Laboratory Tech"
+				},
+				{
+					"code": "coach",
+					"description": "Coach"
+				},
+				{
+					"code": "coat_or_paint_machine_operator",
+					"description": "Coat Or Paint Machine Operator"
+				},
+				{
+					"code": "coin_or_vending_machine_servicer",
+					"description": "Coin Or Vending Machine Servicer"
+				},
+				{
+					"code": "computer_programmer",
+					"description": "Computer Programmer"
+				},
+				{
+					"code": "computer_repairer",
+					"description": "Computer Repairer"
+				},
+				{
+					"code": "computer_technician",
+					"description": "Computer Technician"
+				},
+				{
+					"code": "concierge",
+					"description": "Concierge"
+				},
+				{
+					"code": "construction_worker",
+					"description": "Construction Worker"
+				},
+				{
+					"code": "contractor",
+					"description": "Contractor"
+				},
+				{
+					"code": "cook_or_food_preparation_worker",
+					"description": "Cook Or Food Preparation Worker"
+				},
+				{
+					"code": "cosmetologist",
+					"description": "Cosmetologist"
+				},
+				{
+					"code": "counselor",
+					"description": "Counselor"
+				},
+				{
+					"code": "counter_attendant",
+					"description": "Counter Attendant"
+				},
+				{
+					"code": "courier_and_messanger",
+					"description": "Courier and Messanger"
+				},
+				{
+					"code": "court_reporter",
+					"description": "Court Reporter"
+				},
+				{
+					"code": "crane_operator",
+					"description": "Crane Operator"
+				},
+				{
+					"code": "creative_space_analyst",
+					"description": "Creative Space Analyst"
+				},
+				{
+					"code": "crime_scene_tech",
+					"description": "Crime Scene Tech"
+				},
+				{
+					"code": "crop_duster",
+					"description": "Crop Duster"
+				},
+				{
+					"code": "custodian_and_janitor",
+					"description": "Custodian and Janitor"
+				},
+				{
+					"code": "customer_service_rep",
+					"description": "Customer Service Rep"
+				},
+				{
+					"code": "data_input_clerk",
+					"description": "Data Input Clerk"
+				},
+				{
+					"code": "debt_management_counselor",
+					"description": "Debt Management Counselor"
+				},
+				{
+					"code": "decontamination_worker",
+					"description": "Decontamination Worker"
+				},
+				{
+					"code": "delivery_services_driver",
+					"description": "Delivery Services Driver"
+				},
+				{
+					"code": "dental_assistant",
+					"description": "Dental Assistant"
+				},
+				{
+					"code": "dentist",
+					"description": "Dentist"
+				},
+				{
+					"code": "dietitian_and_nutritionist",
+					"description": "Dietitian and Nutritionist"
+				},
+				{
+					"code": "director",
+					"description": "Director"
+				},
+				{
+					"code": "disabled",
+					"description": "Disabled"
+				},
+				{
+					"code": "dishwasher",
+					"description": "Dishwasher"
+				},
+				{
+					"code": "dispatcher",
+					"description": "Dispatcher"
+				},
+				{
+					"code": "doctor",
+					"description": "Doctor"
+				},
+				{
+					"code": "driver",
+					"description": "Driver"
+				},
+				{
+					"code": "driving_instructor",
+					"description": "Driving Instructor"
+				},
+				{
+					"code": "drywall_or_ceiling_or_tile_installer",
+					"description": "Drywall Or Ceiling Or Tile Installer"
+				},
+				{
+					"code": "dry_cleaning_worker",
+					"description": "Dry Cleaning Worker"
+				},
+				{
+					"code": "editor",
+					"description": "Editor"
+				},
+				{
+					"code": "education_administrator",
+					"description": "Education Administrator"
+				},
+				{
+					"code": "electrician",
+					"description": "Electrician"
+				},
+				{
+					"code": "elevator_operator",
+					"description": "Elevator Operator"
+				},
+				{
+					"code": "emergency_dispatcher",
+					"description": "Emergency Dispatcher"
+				},
+				{
+					"code": "emt",
+					"description": "EMT"
+				},
+				{
+					"code": "engineer",
+					"description": "Engineer"
+				},
+				{
+					"code": "entertainment_director",
+					"description": "Entertainment Director"
+				},
+				{
+					"code": "entertainment_usher_or_lobby_atte",
+					"description": "Entertainment Usher Or Lobby Atte"
+				},
+				{
+					"code": "executive",
+					"description": "Executive"
+				},
+				{
+					"code": "explosives_worker",
+					"description": "Explosives Worker"
+				},
+				{
+					"code": "exterminators",
+					"description": "Exterminators"
+				},
+				{
+					"code": "facility_attendant",
+					"description": "Facility Attendant"
+				},
+				{
+					"code": "farmer",
+					"description": "Farmer"
+				},
+				{
+					"code": "fashion_designer",
+					"description": "Fashion Designer"
+				},
+				{
+					"code": "fence_installer",
+					"description": "Fence Installer"
+				},
+				{
+					"code": "ferry_boat_operator",
+					"description": "Ferry Boat Operator"
+				},
+				{
+					"code": "field_technician",
+					"description": "Field Technician"
+				},
+				{
+					"code": "film_critic",
+					"description": "Film Critic"
+				},
+				{
+					"code": "film_editor",
+					"description": "Film Editor"
+				},
+				{
+					"code": "film_maker",
+					"description": "Film Maker"
+				},
+				{
+					"code": "film_projector_operator",
+					"description": "Film Projector Operator"
+				},
+				{
+					"code": "financial_analyst",
+					"description": "Financial Analyst"
+				},
+				{
+					"code": "financial_clerk",
+					"description": "Financial Clerk"
+				},
+				{
+					"code": "financial_examiner",
+					"description": "Financial Examiner"
+				},
+				{
+					"code": "firefighter",
+					"description": "Firefighter"
+				},
+				{
+					"code": "fire_alarm_installer",
+					"description": "Fire Alarm Installer"
+				},
+				{
+					"code": "fire_sprinkler_installer",
+					"description": "Fire Sprinkler Installer"
+				},
+				{
+					"code": "fisherman",
+					"description": "Fisherman"
+				},
+				{
+					"code": "fishing_and_hunting_guide",
+					"description": "Fishing and Hunting Guide"
+				},
+				{
+					"code": "fish_and_game_warden",
+					"description": "Fish and Game Warden"
+				},
+				{
+					"code": "fish_hatchery_warden",
+					"description": "Fish Hatchery Warden"
+				},
+				{
+					"code": "fitness_trainer",
+					"description": "Fitness Trainer"
+				},
+				{
+					"code": "flight_attendant",
+					"description": "Flight Attendant"
+				},
+				{
+					"code": "flight_instructor",
+					"description": "Flight Instructor"
+				},
+				{
+					"code": "flight_paramedic",
+					"description": "Flight Paramedic"
+				},
+				{
+					"code": "florist",
+					"description": "Florist"
+				},
+				{
+					"code": "food_preparation_worker",
+					"description": "Food Preparation Worker"
+				},
+				{
+					"code": "food_server",
+					"description": "Food Server"
+				},
+				{
+					"code": "fumigator",
+					"description": "Fumigator"
+				},
+				{
+					"code": "funeral_director",
+					"description": "Funeral Director"
+				},
+				{
+					"code": "furniture_assembler",
+					"description": "Furniture Assembler"
+				},
+				{
+					"code": "glass_cutting_worker",
+					"description": "Glass Cutting Worker"
+				},
+				{
+					"code": "glazer",
+					"description": "Glazer"
+				},
+				{
+					"code": "government_official",
+					"description": "Government Official"
+				},
+				{
+					"code": "grounds_maintenance",
+					"description": "Grounds Maintenance"
+				},
+				{
+					"code": "hairdresser",
+					"description": "Hairdresser"
+				},
+				{
+					"code": "hazardous_materials_remover",
+					"description": "Hazardous Materials Remover"
+				},
+				{
+					"code": "heating_and_air_conditioning_wor",
+					"description": "Heating and Air Conditioning Wor"
+				},
+				{
+					"code": "heavy_veh_or_mobile_service_tech",
+					"description": "Heavy Veh Or Mobile Service Tech"
+				},
+				{
+					"code": "help_desk_technician",
+					"description": "Help Desk Technician"
+				},
+				{
+					"code": "home_builder",
+					"description": "Home Builder"
+				},
+				{
+					"code": "home_inspector",
+					"description": "Home Inspector"
+				},
+				{
+					"code": "hospital_administrator",
+					"description": "Hospital Administrator"
+				},
+				{
+					"code": "hostess",
+					"description": "Hostess"
+				},
+				{
+					"code": "hotel_guest_service_agent",
+					"description": "Hotel Guest Service Agent"
+				},
+				{
+					"code": "hotel_manager",
+					"description": "Hotel Manager"
+				},
+				{
+					"code": "human_resources",
+					"description": "Human Resources"
+				},
+				{
+					"code": "ice_cream_vendor",
+					"description": "Ice Cream Vendor"
+				},
+				{
+					"code": "income_tax_advisor",
+					"description": "Income Tax Advisor"
+				},
+				{
+					"code": "income_tax_preparer",
+					"description": "Income Tax Preparer"
+				},
+				{
+					"code": "information_systems_analyst",
+					"description": "Information Systems Analyst"
+				},
+				{
+					"code": "instructor",
+					"description": "Instructor"
+				},
+				{
+					"code": "insurance_claims_adjuster",
+					"description": "Insurance Claims Adjuster"
+				},
+				{
+					"code": "internal_revenue_service_agent",
+					"description": "Internal Revenue Service Agent"
+				},
+				{
+					"code": "interpreter",
+					"description": "Interpreter"
+				},
+				{
+					"code": "investment_services_rep",
+					"description": "Investment Services Rep"
+				},
+				{
+					"code": "jewel_or_stone_or_metal_worker",
+					"description": "Jewel Or Stone Or Metal Worker"
+				},
+				{
+					"code": "judge",
+					"description": "Judge"
+				},
+				{
+					"code": "landscaper",
+					"description": "Landscaper"
+				},
+				{
+					"code": "lawyer",
+					"description": "Lawyer"
+				},
+				{
+					"code": "law_enforcement_officer",
+					"description": "Law Enforcement Officer"
+				},
+				{
+					"code": "legal_assistant",
+					"description": "Legal Assistant"
+				},
+				{
+					"code": "librarian",
+					"description": "Librarian"
+				},
+				{
+					"code": "licensed_registered_nurse_lvn",
+					"description": "Licensed Registered Nurse LVN"
+				},
+				{
+					"code": "lifeguard",
+					"description": "Lifeguard"
+				},
+				{
+					"code": "livestock_buyer",
+					"description": "Livestock Buyer"
+				},
+				{
+					"code": "loan_officer",
+					"description": "Loan Officer"
+				},
+				{
+					"code": "locksmith_and_safe_repairer",
+					"description": "Locksmith and Safe Repairer"
+				},
+				{
+					"code": "machine_operator",
+					"description": "Machine Operator"
+				},
+				{
+					"code": "magician",
+					"description": "Magician"
+				},
+				{
+					"code": "maid_and_housekeeper",
+					"description": "Maid and Housekeeper"
+				},
+				{
+					"code": "maintenance_and_repair_worker",
+					"description": "Maintenance and Repair Worker"
+				},
+				{
+					"code": "management_consultant",
+					"description": "Management Consultant"
+				},
+				{
+					"code": "manager_or_supervisor",
+					"description": "Manager Or Supervisor"
+				},
+				{
+					"code": "manufactured_builiding_install",
+					"description": "Manufactured Builiding Install"
+				},
+				{
+					"code": "market_research_analyst",
+					"description": "Market Research Analyst"
+				},
+				{
+					"code": "massage_therapist",
+					"description": "Massage Therapist"
+				},
+				{
+					"code": "mechanic",
+					"description": "Mechanic"
+				},
+				{
+					"code": "mediator",
+					"description": "Mediator"
+				},
+				{
+					"code": "media_and_communication_worker",
+					"description": "Media and Communication Worker"
+				},
+				{
+					"code": "medical_assistant",
+					"description": "Medical Assistant"
+				},
+				{
+					"code": "medical_orderlies",
+					"description": "Medical Orderlies"
+				},
+				{
+					"code": "medical_or_health_services_manage",
+					"description": "Medical Or Health Services Manage"
+				},
+				{
+					"code": "medical_technician",
+					"description": "Medical Technician"
+				},
+				{
+					"code": "merchandise_distributor",
+					"description": "Merchandise Distributor"
+				},
+				{
+					"code": "meteorologist",
+					"description": "Meteorologist"
+				},
+				{
+					"code": "military_contractor",
+					"description": "Military Contractor"
+				},
+				{
+					"code": "military_serviceman",
+					"description": "Military Serviceman"
+				},
+				{
+					"code": "miner",
+					"description": "Miner"
+				},
+				{
+					"code": "minor",
+					"description": "Minor"
+				},
+				{
+					"code": "missionaries",
+					"description": "Missionaries"
+				},
+				{
+					"code": "model",
+					"description": "Model"
+				},
+				{
+					"code": "mortician",
+					"description": "Mortician"
+				},
+				{
+					"code": "musical_instrument_repairer",
+					"description": "Musical Instrument Repairer"
+				},
+				{
+					"code": "musician",
+					"description": "Musician"
+				},
+				{
+					"code": "nail_technician",
+					"description": "Nail Technician"
+				},
+				{
+					"code": "network_administrator",
+					"description": "Network Administrator"
+				},
+				{
+					"code": "news_anchor",
+					"description": "News Anchor"
+				},
+				{
+					"code": "nurse",
+					"description": "Nurse"
+				},
+				{
+					"code": "nurses_aide",
+					"description": "Nurses Aide"
+				},
+				{
+					"code": "nutritionist",
+					"description": "Nutritionist"
+				},
+				{
+					"code": "occupational_therapist",
+					"description": "Occupational Therapist"
+				},
+				{
+					"code": "office_assistant",
+					"description": "Office Assistant"
+				},
+				{
+					"code": "office_manager",
+					"description": "Office Manager"
+				},
+				{
+					"code": "oil_rigger",
+					"description": "Oil Rigger"
+				},
+				{
+					"code": "operations_analyst",
+					"description": "Operations Analyst"
+				},
+				{
+					"code": "operations_manager",
+					"description": "Operations Manager"
+				},
+				{
+					"code": "operator",
+					"description": "Operator"
+				},
+				{
+					"code": "packaging_or_filling_machine_oper",
+					"description": "Packaging Or Filling Machine Oper"
+				},
+				{
+					"code": "painter",
+					"description": "Painter"
+				},
+				{
+					"code": "paralegal",
+					"description": "Paralegal"
+				},
+				{
+					"code": "paramedic",
+					"description": "Paramedic"
+				},
+				{
+					"code": "parking_attendant",
+					"description": "Parking Attendant"
+				},
+				{
+					"code": "patient_care_tech",
+					"description": "Patient Care Tech"
+				},
+				{
+					"code": "paving_or_surfacing_equip_oper",
+					"description": "Paving Or Surfacing Equip Oper"
+				},
+				{
+					"code": "personal_financial_advisor",
+					"description": "Personal Financial Advisor"
+				},
+				{
+					"code": "pest_control",
+					"description": "Pest Control"
+				},
+				{
+					"code": "pharmacist",
+					"description": "Pharmacist"
+				},
+				{
+					"code": "pharmacy_clerk",
+					"description": "Pharmacy Clerk"
+				},
+				{
+					"code": "photographer",
+					"description": "Photographer"
+				},
+				{
+					"code": "physical_therapist",
+					"description": "Physical Therapist"
+				},
+				{
+					"code": "physician_and_surgeon",
+					"description": "Physician and Surgeon"
+				},
+				{
+					"code": "pilot",
+					"description": "Pilot"
+				},
+				{
+					"code": "pipefitter",
+					"description": "Pipefitter"
+				},
+				{
+					"code": "pipe_layer",
+					"description": "Pipe Layer"
+				},
+				{
+					"code": "plumber",
+					"description": "Plumber"
+				},
+				{
+					"code": "postal_worker",
+					"description": "Postal Worker"
+				},
+				{
+					"code": "private_investigator",
+					"description": "Private Investigator"
+				},
+				{
+					"code": "probation_officer",
+					"description": "Probation Officer"
+				},
+				{
+					"code": "product_specialist",
+					"description": "Product Specialist"
+				},
+				{
+					"code": "professional_athlete",
+					"description": "Professional Athlete"
+				},
+				{
+					"code": "project_manager",
+					"description": "Project Manager"
+				},
+				{
+					"code": "property_appraiser",
+					"description": "Property Appraiser"
+				},
+				{
+					"code": "property_manager",
+					"description": "Property Manager"
+				},
+				{
+					"code": "psychic",
+					"description": "Psychic"
+				},
+				{
+					"code": "pump_operator",
+					"description": "Pump Operator"
+				},
+				{
+					"code": "radio_disk_jockey",
+					"description": "Radio Disk Jockey"
+				},
+				{
+					"code": "radio_or_tower_equip_installer",
+					"description": "Radio Or Tower Equip Installer"
+				},
+				{
+					"code": "railroad_worker",
+					"description": "Railroad Worker"
+				},
+				{
+					"code": "rancher",
+					"description": "Rancher"
+				},
+				{
+					"code": "ranch_hand",
+					"description": "Ranch Hand"
+				},
+				{
+					"code": "rbfcu_employee",
+					"description": "RBFCU Employee"
+				},
+				{
+					"code": "realtor",
+					"description": "Realtor"
+				},
+				{
+					"code": "records_manager",
+					"description": "Records Manager"
+				},
+				{
+					"code": "recruiter",
+					"description": "Recruiter"
+				},
+				{
+					"code": "registered_nurse_rn",
+					"description": "Registered Nurse RN"
+				},
+				{
+					"code": "reporter",
+					"description": "Reporter"
+				},
+				{
+					"code": "repossessor",
+					"description": "Repossessor"
+				},
+				{
+					"code": "researcher",
+					"description": "Researcher"
+				},
+				{
+					"code": "restaurant_manager",
+					"description": "Restaurant Manager"
+				},
+				{
+					"code": "retail_manager",
+					"description": "Retail Manager"
+				},
+				{
+					"code": "retail_worker",
+					"description": "Retail Worker"
+				},
+				{
+					"code": "roofer",
+					"description": "Roofer"
+				},
+				{
+					"code": "sales_agent",
+					"description": "Sales Agent"
+				},
+				{
+					"code": "school_counselor",
+					"description": "School Counselor"
+				},
+				{
+					"code": "secretary",
+					"description": "Secretary"
+				},
+				{
+					"code": "security_and_firm_alarm_install",
+					"description": "Security and Firm Alarm Install"
+				},
+				{
+					"code": "security_officer",
+					"description": "Security Officer"
+				},
+				{
+					"code": "septic_tank_servicer",
+					"description": "Septic Tank Servicer"
+				},
+				{
+					"code": "sewer_pipe_cleaner",
+					"description": "Sewer Pipe Cleaner"
+				},
+				{
+					"code": "shoe_and_leather_worker",
+					"description": "Shoe and Leather Worker"
+				},
+				{
+					"code": "sketch_artist",
+					"description": "Sketch Artist"
+				},
+				{
+					"code": "social_worker",
+					"description": "Social Worker"
+				},
+				{
+					"code": "software_developer",
+					"description": "Software Developer"
+				},
+				{
+					"code": "speech_therapist",
+					"description": "Speech Therapist"
+				},
+				{
+					"code": "state_official",
+					"description": "State Official"
+				},
+				{
+					"code": "surveyor",
+					"description": "Surveyor"
+				},
+				{
+					"code": "tailor_or_dressmaker_or_sewers",
+					"description": "Tailor Or Dressmaker Or Sewers"
+				},
+				{
+					"code": "tattoo_artist",
+					"description": "Tattoo Artist"
+				},
+				{
+					"code": "taxi_driver",
+					"description": "Taxi Driver"
+				},
+				{
+					"code": "tax_assossors",
+					"description": "Tax Assossors"
+				},
+				{
+					"code": "teacher_aide",
+					"description": "Teacher Aide"
+				},
+				{
+					"code": "teacher_or_professor",
+					"description": "Teacher Or Professor"
+				},
+				{
+					"code": "textile_worker",
+					"description": "Textile Worker"
+				},
+				{
+					"code": "theme_park_employee",
+					"description": "Theme Park Employee"
+				},
+				{
+					"code": "tour_guides",
+					"description": "Tour Guides"
+				},
+				{
+					"code": "translators",
+					"description": "Translators"
+				},
+				{
+					"code": "transportation_or_material_moving",
+					"description": "Transportation Or Material Moving"
+				},
+				{
+					"code": "travel_agent",
+					"description": "Travel Agent"
+				},
+				{
+					"code": "tree_trimmers",
+					"description": "Tree Trimmers"
+				},
+				{
+					"code": "truck_driver",
+					"description": "Truck Driver"
+				},
+				{
+					"code": "upholsterers",
+					"description": "Upholsterers"
+				},
+				{
+					"code": "veterinarian",
+					"description": "Veterinarian"
+				},
+				{
+					"code": "waiter",
+					"description": "Waiter"
+				},
+				{
+					"code": "warehouse_worker_attd",
+					"description": "Warehouse Worker Attd"
+				},
+				{
+					"code": "waste_management_worker",
+					"description": "Waste Management Worker"
+				},
+				{
+					"code": "web_developer",
+					"description": "Web Developer"
+				},
+				{
+					"code": "wedding_planner",
+					"description": "Wedding Planner"
+				},
+				{
+					"code": "welder",
+					"description": "Welder"
+				},
+				{
+					"code": "writer",
+					"description": "Writer"
+				},
+				{
+					"code": "xray_technician",
+					"description": "X-Ray Technician"
+				},
+				{
+					"code": "yoga_instructor",
+					"description": "Yoga Instructor"
+				},
+				{
+					"code": "youth_ministry_director",
+					"description": "Youth Ministry Director"
+				},
+				{
+					"code": "youth_program_director",
+					"description": "Youth Program Director"
+				},
+				{
+					"code": "zookeeper",
+					"description": "Zookeeper"
+				},
+				{
+					"code": "zoologist",
+					"description": "Zoologist"
+				}
+			]
+		},
+		{
+			"code": "ST",
+			"description": "Student",
+			"occupations": [
+				{
+					"code": "student",
+					"description": "Student"
+				}
+			]
+		},
+		{
+			"code": "UN",
+			"description": "Unemployed",
+			"occupations": [
+				{
+					"code": "academic_advisor",
+					"description": "Academic Advisor"
+				},
+				{
+					"code": "accountant",
+					"description": "Accountant"
+				},
+				{
+					"code": "accounting_clerk",
+					"description": "Accounting Clerk"
+				},
+				{
+					"code": "actor",
+					"description": "Actor"
+				},
+				{
+					"code": "actress",
+					"description": "Actress"
+				},
+				{
+					"code": "acupuncturist",
+					"description": "Acupuncturist"
+				},
+				{
+					"code": "administrative_assistant",
+					"description": "Administrative Assistant"
+				},
+				{
+					"code": "adult_entertainer",
+					"description": "Adult Entertainer"
+				},
+				{
+					"code": "advertising_and_marketing_emp",
+					"description": "Advertising and Marketing Emp"
+				},
+				{
+					"code": "agricultural_worker",
+					"description": "Agricultural Worker"
+				},
+				{
+					"code": "airline_ticket_agent",
+					"description": "Airline Ticket Agent"
+				},
+				{
+					"code": "airplane_mechanic",
+					"description": "Airplane Mechanic"
+				},
+				{
+					"code": "air_traffic_controller",
+					"description": "Air Traffic Controller"
+				},
+				{
+					"code": "anesthesiologist",
+					"description": "Anesthesiologist"
+				},
+				{
+					"code": "animal_control_worker",
+					"description": "Animal Control Worker"
+				},
+				{
+					"code": "animal_groomer",
+					"description": "Animal Groomer"
+				},
+				{
+					"code": "animal_shelter_worker",
+					"description": "Animal Shelter Worker"
+				},
+				{
+					"code": "animal_trainer",
+					"description": "Animal Trainer"
+				},
+				{
+					"code": "apartment_manager",
+					"description": "Apartment Manager"
+				},
+				{
+					"code": "appraiser",
+					"description": "Appraiser"
+				},
+				{
+					"code": "archeologist",
+					"description": "Archeologist"
+				},
+				{
+					"code": "architect",
+					"description": "Architect"
+				},
+				{
+					"code": "asbestos_abatement_worker",
+					"description": "Asbestos Abatement Worker"
+				},
+				{
+					"code": "assembler_and_fabricator",
+					"description": "Assembler and Fabricator"
+				},
+				{
+					"code": "athletic_trainer",
+					"description": "Athletic Trainer"
+				},
+				{
+					"code": "attorney",
+					"description": "Attorney"
+				},
+				{
+					"code": "auditor",
+					"description": "Auditor"
+				},
+				{
+					"code": "author",
+					"description": "Author"
+				},
+				{
+					"code": "auto_service_tech_and_repairer",
+					"description": "Auto Service Tech and Repairer"
+				},
+				{
+					"code": "bail_bondsmen",
+					"description": "Bail Bondsmen"
+				},
+				{
+					"code": "baker",
+					"description": "Baker"
+				},
+				{
+					"code": "bank_teller",
+					"description": "Bank Teller"
+				},
+				{
+					"code": "barber",
+					"description": "Barber"
+				},
+				{
+					"code": "bartender",
+					"description": "Bartender"
+				},
+				{
+					"code": "bar_back",
+					"description": "Bar Back"
+				},
+				{
+					"code": "bed_and_breakfast_innkeeper",
+					"description": "Bed and Breakfast Innkeeper"
+				},
+				{
+					"code": "bill_and_account_collector",
+					"description": "Bill and Account Collector"
+				},
+				{
+					"code": "bodyguard",
+					"description": "Bodyguard"
+				},
+				{
+					"code": "bookkeeper",
+					"description": "Bookkeeper"
+				},
+				{
+					"code": "bouncer",
+					"description": "Bouncer"
+				},
+				{
+					"code": "brand_ambassador",
+					"description": "Brand Ambassador"
+				},
+				{
+					"code": "budget_analyst",
+					"description": "Budget Analyst"
+				},
+				{
+					"code": "business_owner",
+					"description": "Business Owner"
+				},
+				{
+					"code": "busser",
+					"description": "Busser"
+				},
+				{
+					"code": "bus_driver",
+					"description": "Bus Driver"
+				},
+				{
+					"code": "butcher",
+					"description": "Butcher"
+				},
+				{
+					"code": "cafeteria_server",
+					"description": "Cafeteria Server"
+				},
+				{
+					"code": "call_center",
+					"description": "Call Center"
+				},
+				{
+					"code": "carpenter",
+					"description": "Carpenter"
+				},
+				{
+					"code": "carpet_or_floor_or_tile_installer",
+					"description": "Carpet Or Floor Or Tile Installer"
+				},
+				{
+					"code": "car_wash_attendant",
+					"description": "Car Wash Attendant"
+				},
+				{
+					"code": "case_manager",
+					"description": "Case Manager"
+				},
+				{
+					"code": "cashier",
+					"description": "Cashier"
+				},
+				{
+					"code": "certified_nurse_assistant_cna",
+					"description": "Certified Nurse Assistant CNA"
+				},
+				{
+					"code": "certified_public_accountant",
+					"description": "Certified Public Accountant"
+				},
+				{
+					"code": "chef",
+					"description": "Chef"
+				},
+				{
+					"code": "chemist",
+					"description": "Chemist"
+				},
+				{
+					"code": "childcare_provider",
+					"description": "Childcare Provider"
+				},
+				{
+					"code": "childcare_worker",
+					"description": "Childcare Worker"
+				},
+				{
+					"code": "chiropractor",
+					"description": "Chiropractor"
+				},
+				{
+					"code": "choreographer",
+					"description": "Choreographer"
+				},
+				{
+					"code": "city_official",
+					"description": "City Official"
+				},
+				{
+					"code": "claims_adjuster",
+					"description": "Claims Adjuster"
+				},
+				{
+					"code": "clergy",
+					"description": "Clergy"
+				},
+				{
+					"code": "clinical_laboratory_tech",
+					"description": "Clinical Laboratory Tech"
+				},
+				{
+					"code": "coach",
+					"description": "Coach"
+				},
+				{
+					"code": "coat_or_paint_machine_operator",
+					"description": "Coat Or Paint Machine Operator"
+				},
+				{
+					"code": "coin_or_vending_machine_servicer",
+					"description": "Coin Or Vending Machine Servicer"
+				},
+				{
+					"code": "computer_programmer",
+					"description": "Computer Programmer"
+				},
+				{
+					"code": "computer_repairer",
+					"description": "Computer Repairer"
+				},
+				{
+					"code": "computer_technician",
+					"description": "Computer Technician"
+				},
+				{
+					"code": "concierge",
+					"description": "Concierge"
+				},
+				{
+					"code": "construction_worker",
+					"description": "Construction Worker"
+				},
+				{
+					"code": "contractor",
+					"description": "Contractor"
+				},
+				{
+					"code": "cook_or_food_preparation_worker",
+					"description": "Cook Or Food Preparation Worker"
+				},
+				{
+					"code": "cosmetologist",
+					"description": "Cosmetologist"
+				},
+				{
+					"code": "counselor",
+					"description": "Counselor"
+				},
+				{
+					"code": "counter_attendant",
+					"description": "Counter Attendant"
+				},
+				{
+					"code": "courier_and_messanger",
+					"description": "Courier and Messanger"
+				},
+				{
+					"code": "court_reporter",
+					"description": "Court Reporter"
+				},
+				{
+					"code": "crane_operator",
+					"description": "Crane Operator"
+				},
+				{
+					"code": "creative_space_analyst",
+					"description": "Creative Space Analyst"
+				},
+				{
+					"code": "crime_scene_tech",
+					"description": "Crime Scene Tech"
+				},
+				{
+					"code": "crop_duster",
+					"description": "Crop Duster"
+				},
+				{
+					"code": "custodian_and_janitor",
+					"description": "Custodian and Janitor"
+				},
+				{
+					"code": "customer_service_rep",
+					"description": "Customer Service Rep"
+				},
+				{
+					"code": "data_input_clerk",
+					"description": "Data Input Clerk"
+				},
+				{
+					"code": "debt_management_counselor",
+					"description": "Debt Management Counselor"
+				},
+				{
+					"code": "decontamination_worker",
+					"description": "Decontamination Worker"
+				},
+				{
+					"code": "delivery_services_driver",
+					"description": "Delivery Services Driver"
+				},
+				{
+					"code": "dental_assistant",
+					"description": "Dental Assistant"
+				},
+				{
+					"code": "dentist",
+					"description": "Dentist"
+				},
+				{
+					"code": "dietitian_and_nutritionist",
+					"description": "Dietitian and Nutritionist"
+				},
+				{
+					"code": "director",
+					"description": "Director"
+				},
+				{
+					"code": "disabled",
+					"description": "Disabled"
+				},
+				{
+					"code": "dishwasher",
+					"description": "Dishwasher"
+				},
+				{
+					"code": "dispatcher",
+					"description": "Dispatcher"
+				},
+				{
+					"code": "doctor",
+					"description": "Doctor"
+				},
+				{
+					"code": "driver",
+					"description": "Driver"
+				},
+				{
+					"code": "driving_instructor",
+					"description": "Driving Instructor"
+				},
+				{
+					"code": "drywall_or_ceiling_or_tile_installer",
+					"description": "Drywall Or Ceiling Or Tile Installer"
+				},
+				{
+					"code": "dry_cleaning_worker",
+					"description": "Dry Cleaning Worker"
+				},
+				{
+					"code": "editor",
+					"description": "Editor"
+				},
+				{
+					"code": "education_administrator",
+					"description": "Education Administrator"
+				},
+				{
+					"code": "electrician",
+					"description": "Electrician"
+				},
+				{
+					"code": "elevator_operator",
+					"description": "Elevator Operator"
+				},
+				{
+					"code": "emergency_dispatcher",
+					"description": "Emergency Dispatcher"
+				},
+				{
+					"code": "emt",
+					"description": "EMT"
+				},
+				{
+					"code": "engineer",
+					"description": "Engineer"
+				},
+				{
+					"code": "entertainment_director",
+					"description": "Entertainment Director"
+				},
+				{
+					"code": "entertainment_usher_or_lobby_atte",
+					"description": "Entertainment Usher Or Lobby Atte"
+				},
+				{
+					"code": "executive",
+					"description": "Executive"
+				},
+				{
+					"code": "explosives_worker",
+					"description": "Explosives Worker"
+				},
+				{
+					"code": "exterminators",
+					"description": "Exterminators"
+				},
+				{
+					"code": "facility_attendant",
+					"description": "Facility Attendant"
+				},
+				{
+					"code": "farmer",
+					"description": "Farmer"
+				},
+				{
+					"code": "fashion_designer",
+					"description": "Fashion Designer"
+				},
+				{
+					"code": "fence_installer",
+					"description": "Fence Installer"
+				},
+				{
+					"code": "ferry_boat_operator",
+					"description": "Ferry Boat Operator"
+				},
+				{
+					"code": "field_technician",
+					"description": "Field Technician"
+				},
+				{
+					"code": "film_critic",
+					"description": "Film Critic"
+				},
+				{
+					"code": "film_editor",
+					"description": "Film Editor"
+				},
+				{
+					"code": "film_maker",
+					"description": "Film Maker"
+				},
+				{
+					"code": "film_projector_operator",
+					"description": "Film Projector Operator"
+				},
+				{
+					"code": "financial_analyst",
+					"description": "Financial Analyst"
+				},
+				{
+					"code": "financial_clerk",
+					"description": "Financial Clerk"
+				},
+				{
+					"code": "financial_examiner",
+					"description": "Financial Examiner"
+				},
+				{
+					"code": "firefighter",
+					"description": "Firefighter"
+				},
+				{
+					"code": "fire_alarm_installer",
+					"description": "Fire Alarm Installer"
+				},
+				{
+					"code": "fire_sprinkler_installer",
+					"description": "Fire Sprinkler Installer"
+				},
+				{
+					"code": "fisherman",
+					"description": "Fisherman"
+				},
+				{
+					"code": "fishing_and_hunting_guide",
+					"description": "Fishing and Hunting Guide"
+				},
+				{
+					"code": "fish_and_game_warden",
+					"description": "Fish and Game Warden"
+				},
+				{
+					"code": "fish_hatchery_warden",
+					"description": "Fish Hatchery Warden"
+				},
+				{
+					"code": "fitness_trainer",
+					"description": "Fitness Trainer"
+				},
+				{
+					"code": "flight_attendant",
+					"description": "Flight Attendant"
+				},
+				{
+					"code": "flight_instructor",
+					"description": "Flight Instructor"
+				},
+				{
+					"code": "flight_paramedic",
+					"description": "Flight Paramedic"
+				},
+				{
+					"code": "florist",
+					"description": "Florist"
+				},
+				{
+					"code": "food_preparation_worker",
+					"description": "Food Preparation Worker"
+				},
+				{
+					"code": "food_server",
+					"description": "Food Server"
+				},
+				{
+					"code": "fumigator",
+					"description": "Fumigator"
+				},
+				{
+					"code": "funeral_director",
+					"description": "Funeral Director"
+				},
+				{
+					"code": "furniture_assembler",
+					"description": "Furniture Assembler"
+				},
+				{
+					"code": "glass_cutting_worker",
+					"description": "Glass Cutting Worker"
+				},
+				{
+					"code": "glazer",
+					"description": "Glazer"
+				},
+				{
+					"code": "government_official",
+					"description": "Government Official"
+				},
+				{
+					"code": "grounds_maintenance",
+					"description": "Grounds Maintenance"
+				},
+				{
+					"code": "hairdresser",
+					"description": "Hairdresser"
+				},
+				{
+					"code": "hazardous_materials_remover",
+					"description": "Hazardous Materials Remover"
+				},
+				{
+					"code": "heating_and_air_conditioning_wor",
+					"description": "Heating and Air Conditioning Wor"
+				},
+				{
+					"code": "heavy_veh_or_mobile_service_tech",
+					"description": "Heavy Veh Or Mobile Service Tech"
+				},
+				{
+					"code": "help_desk_technician",
+					"description": "Help Desk Technician"
+				},
+				{
+					"code": "homemaker",
+					"description": "Homemaker"
+				},
+				{
+					"code": "home_builder",
+					"description": "Home Builder"
+				},
+				{
+					"code": "home_inspector",
+					"description": "Home Inspector"
+				},
+				{
+					"code": "hospital_administrator",
+					"description": "Hospital Administrator"
+				},
+				{
+					"code": "hostess",
+					"description": "Hostess"
+				},
+				{
+					"code": "hotel_guest_service_agent",
+					"description": "Hotel Guest Service Agent"
+				},
+				{
+					"code": "hotel_manager",
+					"description": "Hotel Manager"
+				},
+				{
+					"code": "human_resources",
+					"description": "Human Resources"
+				},
+				{
+					"code": "ice_cream_vendor",
+					"description": "Ice Cream Vendor"
+				},
+				{
+					"code": "income_tax_advisor",
+					"description": "Income Tax Advisor"
+				},
+				{
+					"code": "income_tax_preparer",
+					"description": "Income Tax Preparer"
+				},
+				{
+					"code": "information_systems_analyst",
+					"description": "Information Systems Analyst"
+				},
+				{
+					"code": "instructor",
+					"description": "Instructor"
+				},
+				{
+					"code": "insurance_claims_adjuster",
+					"description": "Insurance Claims Adjuster"
+				},
+				{
+					"code": "internal_revenue_service_agent",
+					"description": "Internal Revenue Service Agent"
+				},
+				{
+					"code": "interpreter",
+					"description": "Interpreter"
+				},
+				{
+					"code": "investment_services_rep",
+					"description": "Investment Services Rep"
+				},
+				{
+					"code": "jewel_or_stone_or_metal_worker",
+					"description": "Jewel Or Stone Or Metal Worker"
+				},
+				{
+					"code": "judge",
+					"description": "Judge"
+				},
+				{
+					"code": "landscaper",
+					"description": "Landscaper"
+				},
+				{
+					"code": "lawyer",
+					"description": "Lawyer"
+				},
+				{
+					"code": "law_enforcement_officer",
+					"description": "Law Enforcement Officer"
+				},
+				{
+					"code": "legal_assistant",
+					"description": "Legal Assistant"
+				},
+				{
+					"code": "librarian",
+					"description": "Librarian"
+				},
+				{
+					"code": "licensed_registered_nurse_lvn",
+					"description": "Licensed Registered Nurse LVN"
+				},
+				{
+					"code": "lifeguard",
+					"description": "Lifeguard"
+				},
+				{
+					"code": "livestock_buyer",
+					"description": "Livestock Buyer"
+				},
+				{
+					"code": "loan_officer",
+					"description": "Loan Officer"
+				},
+				{
+					"code": "locksmith_and_safe_repairer",
+					"description": "Locksmith and Safe Repairer"
+				},
+				{
+					"code": "machine_operator",
+					"description": "Machine Operator"
+				},
+				{
+					"code": "magician",
+					"description": "Magician"
+				},
+				{
+					"code": "maid_and_housekeeper",
+					"description": "Maid and Housekeeper"
+				},
+				{
+					"code": "maintenance_and_repair_worker",
+					"description": "Maintenance and Repair Worker"
+				},
+				{
+					"code": "management_consultant",
+					"description": "Management Consultant"
+				},
+				{
+					"code": "manager_or_supervisor",
+					"description": "Manager Or Supervisor"
+				},
+				{
+					"code": "manufactured_builiding_install",
+					"description": "Manufactured Builiding Install"
+				},
+				{
+					"code": "market_research_analyst",
+					"description": "Market Research Analyst"
+				},
+				{
+					"code": "massage_therapist",
+					"description": "Massage Therapist"
+				},
+				{
+					"code": "mechanic",
+					"description": "Mechanic"
+				},
+				{
+					"code": "mediator",
+					"description": "Mediator"
+				},
+				{
+					"code": "media_and_communication_worker",
+					"description": "Media and Communication Worker"
+				},
+				{
+					"code": "medical_assistant",
+					"description": "Medical Assistant"
+				},
+				{
+					"code": "medical_orderlies",
+					"description": "Medical Orderlies"
+				},
+				{
+					"code": "medical_or_health_services_manage",
+					"description": "Medical Or Health Services Manage"
+				},
+				{
+					"code": "medical_technician",
+					"description": "Medical Technician"
+				},
+				{
+					"code": "merchandise_distributor",
+					"description": "Merchandise Distributor"
+				},
+				{
+					"code": "meteorologist",
+					"description": "Meteorologist"
+				},
+				{
+					"code": "military_contractor",
+					"description": "Military Contractor"
+				},
+				{
+					"code": "military_serviceman",
+					"description": "Military Serviceman"
+				},
+				{
+					"code": "miner",
+					"description": "Miner"
+				},
+				{
+					"code": "minor",
+					"description": "Minor"
+				},
+				{
+					"code": "missionaries",
+					"description": "Missionaries"
+				},
+				{
+					"code": "model",
+					"description": "Model"
+				},
+				{
+					"code": "mortician",
+					"description": "Mortician"
+				},
+				{
+					"code": "musical_instrument_repairer",
+					"description": "Musical Instrument Repairer"
+				},
+				{
+					"code": "musician",
+					"description": "Musician"
+				},
+				{
+					"code": "nail_technician",
+					"description": "Nail Technician"
+				},
+				{
+					"code": "network_administrator",
+					"description": "Network Administrator"
+				},
+				{
+					"code": "news_anchor",
+					"description": "News Anchor"
+				},
+				{
+					"code": "nurse",
+					"description": "Nurse"
+				},
+				{
+					"code": "nurses_aide",
+					"description": "Nurses Aide"
+				},
+				{
+					"code": "nutritionist",
+					"description": "Nutritionist"
+				},
+				{
+					"code": "occupational_therapist",
+					"description": "Occupational Therapist"
+				},
+				{
+					"code": "office_assistant",
+					"description": "Office Assistant"
+				},
+				{
+					"code": "office_manager",
+					"description": "Office Manager"
+				},
+				{
+					"code": "oil_rigger",
+					"description": "Oil Rigger"
+				},
+				{
+					"code": "operations_analyst",
+					"description": "Operations Analyst"
+				},
+				{
+					"code": "operations_manager",
+					"description": "Operations Manager"
+				},
+				{
+					"code": "operator",
+					"description": "Operator"
+				},
+				{
+					"code": "packaging_or_filling_machine_oper",
+					"description": "Packaging Or Filling Machine Oper"
+				},
+				{
+					"code": "painter",
+					"description": "Painter"
+				},
+				{
+					"code": "paralegal",
+					"description": "Paralegal"
+				},
+				{
+					"code": "paramedic",
+					"description": "Paramedic"
+				},
+				{
+					"code": "parking_attendant",
+					"description": "Parking Attendant"
+				},
+				{
+					"code": "patient_care_tech",
+					"description": "Patient Care Tech"
+				},
+				{
+					"code": "paving_or_surfacing_equip_oper",
+					"description": "Paving Or Surfacing Equip Oper"
+				},
+				{
+					"code": "personal_financial_advisor",
+					"description": "Personal Financial Advisor"
+				},
+				{
+					"code": "pest_control",
+					"description": "Pest Control"
+				},
+				{
+					"code": "pharmacist",
+					"description": "Pharmacist"
+				},
+				{
+					"code": "pharmacy_clerk",
+					"description": "Pharmacy Clerk"
+				},
+				{
+					"code": "photographer",
+					"description": "Photographer"
+				},
+				{
+					"code": "physical_therapist",
+					"description": "Physical Therapist"
+				},
+				{
+					"code": "physician_and_surgeon",
+					"description": "Physician and Surgeon"
+				},
+				{
+					"code": "pilot",
+					"description": "Pilot"
+				},
+				{
+					"code": "pipefitter",
+					"description": "Pipefitter"
+				},
+				{
+					"code": "pipe_layer",
+					"description": "Pipe Layer"
+				},
+				{
+					"code": "plumber",
+					"description": "Plumber"
+				},
+				{
+					"code": "postal_worker",
+					"description": "Postal Worker"
+				},
+				{
+					"code": "private_investigator",
+					"description": "Private Investigator"
+				},
+				{
+					"code": "probation_officer",
+					"description": "Probation Officer"
+				},
+				{
+					"code": "product_specialist",
+					"description": "Product Specialist"
+				},
+				{
+					"code": "professional_athlete",
+					"description": "Professional Athlete"
+				},
+				{
+					"code": "project_manager",
+					"description": "Project Manager"
+				},
+				{
+					"code": "property_appraiser",
+					"description": "Property Appraiser"
+				},
+				{
+					"code": "property_manager",
+					"description": "Property Manager"
+				},
+				{
+					"code": "psychic",
+					"description": "Psychic"
+				},
+				{
+					"code": "pump_operator",
+					"description": "Pump Operator"
+				},
+				{
+					"code": "radio_disk_jockey",
+					"description": "Radio Disk Jockey"
+				},
+				{
+					"code": "radio_or_tower_equip_installer",
+					"description": "Radio Or Tower Equip Installer"
+				},
+				{
+					"code": "railroad_worker",
+					"description": "Railroad Worker"
+				},
+				{
+					"code": "rancher",
+					"description": "Rancher"
+				},
+				{
+					"code": "ranch_hand",
+					"description": "Ranch Hand"
+				},
+				{
+					"code": "rbfcu_employee",
+					"description": "RBFCU Employee"
+				},
+				{
+					"code": "realtor",
+					"description": "Realtor"
+				},
+				{
+					"code": "records_manager",
+					"description": "Records Manager"
+				},
+				{
+					"code": "recruiter",
+					"description": "Recruiter"
+				},
+				{
+					"code": "registered_nurse_rn",
+					"description": "Registered Nurse RN"
+				},
+				{
+					"code": "reporter",
+					"description": "Reporter"
+				},
+				{
+					"code": "repossessor",
+					"description": "Repossessor"
+				},
+				{
+					"code": "researcher",
+					"description": "Researcher"
+				},
+				{
+					"code": "restaurant_manager",
+					"description": "Restaurant Manager"
+				},
+				{
+					"code": "retail_manager",
+					"description": "Retail Manager"
+				},
+				{
+					"code": "retail_worker",
+					"description": "Retail Worker"
+				},
+				{
+					"code": "roofer",
+					"description": "Roofer"
+				},
+				{
+					"code": "sales_agent",
+					"description": "Sales Agent"
+				},
+				{
+					"code": "school_counselor",
+					"description": "School Counselor"
+				},
+				{
+					"code": "secretary",
+					"description": "Secretary"
+				},
+				{
+					"code": "security_and_firm_alarm_install",
+					"description": "Security and Firm Alarm Install"
+				},
+				{
+					"code": "security_officer",
+					"description": "Security Officer"
+				},
+				{
+					"code": "septic_tank_servicer",
+					"description": "Septic Tank Servicer"
+				},
+				{
+					"code": "sewer_pipe_cleaner",
+					"description": "Sewer Pipe Cleaner"
+				},
+				{
+					"code": "shoe_and_leather_worker",
+					"description": "Shoe and Leather Worker"
+				},
+				{
+					"code": "sketch_artist",
+					"description": "Sketch Artist"
+				},
+				{
+					"code": "social_worker",
+					"description": "Social Worker"
+				},
+				{
+					"code": "software_developer",
+					"description": "Software Developer"
+				},
+				{
+					"code": "speech_therapist",
+					"description": "Speech Therapist"
+				},
+				{
+					"code": "state_official",
+					"description": "State Official"
+				},
+				{
+					"code": "student",
+					"description": "Student"
+				},
+				{
+					"code": "surveyor",
+					"description": "Surveyor"
+				},
+				{
+					"code": "tailor_or_dressmaker_or_sewers",
+					"description": "Tailor Or Dressmaker Or Sewers"
+				},
+				{
+					"code": "tattoo_artist",
+					"description": "Tattoo Artist"
+				},
+				{
+					"code": "taxi_driver",
+					"description": "Taxi Driver"
+				},
+				{
+					"code": "tax_assossors",
+					"description": "Tax Assossors"
+				},
+				{
+					"code": "teacher_aide",
+					"description": "Teacher Aide"
+				},
+				{
+					"code": "teacher_or_professor",
+					"description": "Teacher Or Professor"
+				},
+				{
+					"code": "textile_worker",
+					"description": "Textile Worker"
+				},
+				{
+					"code": "theme_park_employee",
+					"description": "Theme Park Employee"
+				},
+				{
+					"code": "tour_guides",
+					"description": "Tour Guides"
+				},
+				{
+					"code": "translators",
+					"description": "Translators"
+				},
+				{
+					"code": "transportation_or_material_moving",
+					"description": "Transportation Or Material Moving"
+				},
+				{
+					"code": "travel_agent",
+					"description": "Travel Agent"
+				},
+				{
+					"code": "tree_trimmers",
+					"description": "Tree Trimmers"
+				},
+				{
+					"code": "truck_driver",
+					"description": "Truck Driver"
+				},
+				{
+					"code": "upholsterers",
+					"description": "Upholsterers"
+				},
+				{
+					"code": "veterinarian",
+					"description": "Veterinarian"
+				},
+				{
+					"code": "waiter",
+					"description": "Waiter"
+				},
+				{
+					"code": "warehouse_worker_attd",
+					"description": "Warehouse Worker Attd"
+				},
+				{
+					"code": "waste_management_worker",
+					"description": "Waste Management Worker"
+				},
+				{
+					"code": "web_developer",
+					"description": "Web Developer"
+				},
+				{
+					"code": "wedding_planner",
+					"description": "Wedding Planner"
+				},
+				{
+					"code": "welder",
+					"description": "Welder"
+				},
+				{
+					"code": "writer",
+					"description": "Writer"
+				},
+				{
+					"code": "xray_technician",
+					"description": "X-Ray Technician"
+				},
+				{
+					"code": "yoga_instructor",
+					"description": "Yoga Instructor"
+				},
+				{
+					"code": "youth_ministry_director",
+					"description": "Youth Ministry Director"
+				},
+				{
+					"code": "youth_program_director",
+					"description": "Youth Program Director"
+				},
+				{
+					"code": "zookeeper",
+					"description": "Zookeeper"
+				},
+				{
+					"code": "zoologist",
+					"description": "Zoologist"
+				}
+			]
+		},
+		{
+			"code": "OT",
+			"description": "Other",
+			"occupations": [
+				{
+					"code": "academic_advisor",
+					"description": "Academic Advisor"
+				},
+				{
+					"code": "accountant",
+					"description": "Accountant"
+				},
+				{
+					"code": "accounting_clerk",
+					"description": "Accounting Clerk"
+				},
+				{
+					"code": "actor",
+					"description": "Actor"
+				},
+				{
+					"code": "actress",
+					"description": "Actress"
+				},
+				{
+					"code": "acupuncturist",
+					"description": "Acupuncturist"
+				},
+				{
+					"code": "administrative_assistant",
+					"description": "Administrative Assistant"
+				},
+				{
+					"code": "adult_entertainer",
+					"description": "Adult Entertainer"
+				},
+				{
+					"code": "advertising_and_marketing_emp",
+					"description": "Advertising and Marketing Emp"
+				},
+				{
+					"code": "agricultural_worker",
+					"description": "Agricultural Worker"
+				},
+				{
+					"code": "airline_ticket_agent",
+					"description": "Airline Ticket Agent"
+				},
+				{
+					"code": "airplane_mechanic",
+					"description": "Airplane Mechanic"
+				},
+				{
+					"code": "air_traffic_controller",
+					"description": "Air Traffic Controller"
+				},
+				{
+					"code": "anesthesiologist",
+					"description": "Anesthesiologist"
+				},
+				{
+					"code": "animal_control_worker",
+					"description": "Animal Control Worker"
+				},
+				{
+					"code": "animal_groomer",
+					"description": "Animal Groomer"
+				},
+				{
+					"code": "animal_shelter_worker",
+					"description": "Animal Shelter Worker"
+				},
+				{
+					"code": "animal_trainer",
+					"description": "Animal Trainer"
+				},
+				{
+					"code": "apartment_manager",
+					"description": "Apartment Manager"
+				},
+				{
+					"code": "appraiser",
+					"description": "Appraiser"
+				},
+				{
+					"code": "archeologist",
+					"description": "Archeologist"
+				},
+				{
+					"code": "architect",
+					"description": "Architect"
+				},
+				{
+					"code": "asbestos_abatement_worker",
+					"description": "Asbestos Abatement Worker"
+				},
+				{
+					"code": "assembler_and_fabricator",
+					"description": "Assembler and Fabricator"
+				},
+				{
+					"code": "athletic_trainer",
+					"description": "Athletic Trainer"
+				},
+				{
+					"code": "attorney",
+					"description": "Attorney"
+				},
+				{
+					"code": "auditor",
+					"description": "Auditor"
+				},
+				{
+					"code": "author",
+					"description": "Author"
+				},
+				{
+					"code": "auto_service_tech_and_repairer",
+					"description": "Auto Service Tech and Repairer"
+				},
+				{
+					"code": "bail_bondsmen",
+					"description": "Bail Bondsmen"
+				},
+				{
+					"code": "baker",
+					"description": "Baker"
+				},
+				{
+					"code": "bank_teller",
+					"description": "Bank Teller"
+				},
+				{
+					"code": "barber",
+					"description": "Barber"
+				},
+				{
+					"code": "bartender",
+					"description": "Bartender"
+				},
+				{
+					"code": "bar_back",
+					"description": "Bar Back"
+				},
+				{
+					"code": "bed_and_breakfast_innkeeper",
+					"description": "Bed and Breakfast Innkeeper"
+				},
+				{
+					"code": "bill_and_account_collector",
+					"description": "Bill and Account Collector"
+				},
+				{
+					"code": "bodyguard",
+					"description": "Bodyguard"
+				},
+				{
+					"code": "bookkeeper",
+					"description": "Bookkeeper"
+				},
+				{
+					"code": "bouncer",
+					"description": "Bouncer"
+				},
+				{
+					"code": "brand_ambassador",
+					"description": "Brand Ambassador"
+				},
+				{
+					"code": "budget_analyst",
+					"description": "Budget Analyst"
+				},
+				{
+					"code": "business_owner",
+					"description": "Business Owner"
+				},
+				{
+					"code": "busser",
+					"description": "Busser"
+				},
+				{
+					"code": "bus_driver",
+					"description": "Bus Driver"
+				},
+				{
+					"code": "butcher",
+					"description": "Butcher"
+				},
+				{
+					"code": "cafeteria_server",
+					"description": "Cafeteria Server"
+				},
+				{
+					"code": "call_center",
+					"description": "Call Center"
+				},
+				{
+					"code": "carpenter",
+					"description": "Carpenter"
+				},
+				{
+					"code": "carpet_or_floor_or_tile_installer",
+					"description": "Carpet Or Floor Or Tile Installer"
+				},
+				{
+					"code": "car_wash_attendant",
+					"description": "Car Wash Attendant"
+				},
+				{
+					"code": "case_manager",
+					"description": "Case Manager"
+				},
+				{
+					"code": "cashier",
+					"description": "Cashier"
+				},
+				{
+					"code": "certified_nurse_assistant_cna",
+					"description": "Certified Nurse Assistant CNA"
+				},
+				{
+					"code": "certified_public_accountant",
+					"description": "Certified Public Accountant"
+				},
+				{
+					"code": "chef",
+					"description": "Chef"
+				},
+				{
+					"code": "chemist",
+					"description": "Chemist"
+				},
+				{
+					"code": "childcare_provider",
+					"description": "Childcare Provider"
+				},
+				{
+					"code": "childcare_worker",
+					"description": "Childcare Worker"
+				},
+				{
+					"code": "chiropractor",
+					"description": "Chiropractor"
+				},
+				{
+					"code": "choreographer",
+					"description": "Choreographer"
+				},
+				{
+					"code": "city_official",
+					"description": "City Official"
+				},
+				{
+					"code": "claims_adjuster",
+					"description": "Claims Adjuster"
+				},
+				{
+					"code": "clergy",
+					"description": "Clergy"
+				},
+				{
+					"code": "clinical_laboratory_tech",
+					"description": "Clinical Laboratory Tech"
+				},
+				{
+					"code": "coach",
+					"description": "Coach"
+				},
+				{
+					"code": "coat_or_paint_machine_operator",
+					"description": "Coat Or Paint Machine Operator"
+				},
+				{
+					"code": "coin_or_vending_machine_servicer",
+					"description": "Coin Or Vending Machine Servicer"
+				},
+				{
+					"code": "computer_programmer",
+					"description": "Computer Programmer"
+				},
+				{
+					"code": "computer_repairer",
+					"description": "Computer Repairer"
+				},
+				{
+					"code": "computer_technician",
+					"description": "Computer Technician"
+				},
+				{
+					"code": "concierge",
+					"description": "Concierge"
+				},
+				{
+					"code": "construction_worker",
+					"description": "Construction Worker"
+				},
+				{
+					"code": "contractor",
+					"description": "Contractor"
+				},
+				{
+					"code": "cook_or_food_preparation_worker",
+					"description": "Cook Or Food Preparation Worker"
+				},
+				{
+					"code": "cosmetologist",
+					"description": "Cosmetologist"
+				},
+				{
+					"code": "counselor",
+					"description": "Counselor"
+				},
+				{
+					"code": "counter_attendant",
+					"description": "Counter Attendant"
+				},
+				{
+					"code": "courier_and_messanger",
+					"description": "Courier and Messanger"
+				},
+				{
+					"code": "court_reporter",
+					"description": "Court Reporter"
+				},
+				{
+					"code": "crane_operator",
+					"description": "Crane Operator"
+				},
+				{
+					"code": "creative_space_analyst",
+					"description": "Creative Space Analyst"
+				},
+				{
+					"code": "crime_scene_tech",
+					"description": "Crime Scene Tech"
+				},
+				{
+					"code": "crop_duster",
+					"description": "Crop Duster"
+				},
+				{
+					"code": "custodian_and_janitor",
+					"description": "Custodian and Janitor"
+				},
+				{
+					"code": "customer_service_rep",
+					"description": "Customer Service Rep"
+				},
+				{
+					"code": "data_input_clerk",
+					"description": "Data Input Clerk"
+				},
+				{
+					"code": "debt_management_counselor",
+					"description": "Debt Management Counselor"
+				},
+				{
+					"code": "decontamination_worker",
+					"description": "Decontamination Worker"
+				},
+				{
+					"code": "delivery_services_driver",
+					"description": "Delivery Services Driver"
+				},
+				{
+					"code": "dental_assistant",
+					"description": "Dental Assistant"
+				},
+				{
+					"code": "dentist",
+					"description": "Dentist"
+				},
+				{
+					"code": "dietitian_and_nutritionist",
+					"description": "Dietitian and Nutritionist"
+				},
+				{
+					"code": "director",
+					"description": "Director"
+				},
+				{
+					"code": "disabled",
+					"description": "Disabled"
+				},
+				{
+					"code": "dishwasher",
+					"description": "Dishwasher"
+				},
+				{
+					"code": "dispatcher",
+					"description": "Dispatcher"
+				},
+				{
+					"code": "doctor",
+					"description": "Doctor"
+				},
+				{
+					"code": "driver",
+					"description": "Driver"
+				},
+				{
+					"code": "driving_instructor",
+					"description": "Driving Instructor"
+				},
+				{
+					"code": "drywall_or_ceiling_or_tile_installer",
+					"description": "Drywall Or Ceiling Or Tile Installer"
+				},
+				{
+					"code": "dry_cleaning_worker",
+					"description": "Dry Cleaning Worker"
+				},
+				{
+					"code": "editor",
+					"description": "Editor"
+				},
+				{
+					"code": "education_administrator",
+					"description": "Education Administrator"
+				},
+				{
+					"code": "electrician",
+					"description": "Electrician"
+				},
+				{
+					"code": "elevator_operator",
+					"description": "Elevator Operator"
+				},
+				{
+					"code": "emergency_dispatcher",
+					"description": "Emergency Dispatcher"
+				},
+				{
+					"code": "emt",
+					"description": "EMT"
+				},
+				{
+					"code": "engineer",
+					"description": "Engineer"
+				},
+				{
+					"code": "entertainment_director",
+					"description": "Entertainment Director"
+				},
+				{
+					"code": "entertainment_usher_or_lobby_atte",
+					"description": "Entertainment Usher Or Lobby Atte"
+				},
+				{
+					"code": "executive",
+					"description": "Executive"
+				},
+				{
+					"code": "explosives_worker",
+					"description": "Explosives Worker"
+				},
+				{
+					"code": "exterminators",
+					"description": "Exterminators"
+				},
+				{
+					"code": "facility_attendant",
+					"description": "Facility Attendant"
+				},
+				{
+					"code": "farmer",
+					"description": "Farmer"
+				},
+				{
+					"code": "fashion_designer",
+					"description": "Fashion Designer"
+				},
+				{
+					"code": "fence_installer",
+					"description": "Fence Installer"
+				},
+				{
+					"code": "ferry_boat_operator",
+					"description": "Ferry Boat Operator"
+				},
+				{
+					"code": "field_technician",
+					"description": "Field Technician"
+				},
+				{
+					"code": "film_critic",
+					"description": "Film Critic"
+				},
+				{
+					"code": "film_editor",
+					"description": "Film Editor"
+				},
+				{
+					"code": "film_maker",
+					"description": "Film Maker"
+				},
+				{
+					"code": "film_projector_operator",
+					"description": "Film Projector Operator"
+				},
+				{
+					"code": "financial_analyst",
+					"description": "Financial Analyst"
+				},
+				{
+					"code": "financial_clerk",
+					"description": "Financial Clerk"
+				},
+				{
+					"code": "financial_examiner",
+					"description": "Financial Examiner"
+				},
+				{
+					"code": "firefighter",
+					"description": "Firefighter"
+				},
+				{
+					"code": "fire_alarm_installer",
+					"description": "Fire Alarm Installer"
+				},
+				{
+					"code": "fire_sprinkler_installer",
+					"description": "Fire Sprinkler Installer"
+				},
+				{
+					"code": "fisherman",
+					"description": "Fisherman"
+				},
+				{
+					"code": "fishing_and_hunting_guide",
+					"description": "Fishing and Hunting Guide"
+				},
+				{
+					"code": "fish_and_game_warden",
+					"description": "Fish and Game Warden"
+				},
+				{
+					"code": "fish_hatchery_warden",
+					"description": "Fish Hatchery Warden"
+				},
+				{
+					"code": "fitness_trainer",
+					"description": "Fitness Trainer"
+				},
+				{
+					"code": "flight_attendant",
+					"description": "Flight Attendant"
+				},
+				{
+					"code": "flight_instructor",
+					"description": "Flight Instructor"
+				},
+				{
+					"code": "flight_paramedic",
+					"description": "Flight Paramedic"
+				},
+				{
+					"code": "florist",
+					"description": "Florist"
+				},
+				{
+					"code": "food_preparation_worker",
+					"description": "Food Preparation Worker"
+				},
+				{
+					"code": "food_server",
+					"description": "Food Server"
+				},
+				{
+					"code": "fumigator",
+					"description": "Fumigator"
+				},
+				{
+					"code": "funeral_director",
+					"description": "Funeral Director"
+				},
+				{
+					"code": "furniture_assembler",
+					"description": "Furniture Assembler"
+				},
+				{
+					"code": "glass_cutting_worker",
+					"description": "Glass Cutting Worker"
+				},
+				{
+					"code": "glazer",
+					"description": "Glazer"
+				},
+				{
+					"code": "government_official",
+					"description": "Government Official"
+				},
+				{
+					"code": "grounds_maintenance",
+					"description": "Grounds Maintenance"
+				},
+				{
+					"code": "hairdresser",
+					"description": "Hairdresser"
+				},
+				{
+					"code": "hazardous_materials_remover",
+					"description": "Hazardous Materials Remover"
+				},
+				{
+					"code": "heating_and_air_conditioning_wor",
+					"description": "Heating and Air Conditioning Wor"
+				},
+				{
+					"code": "heavy_veh_or_mobile_service_tech",
+					"description": "Heavy Veh Or Mobile Service Tech"
+				},
+				{
+					"code": "help_desk_technician",
+					"description": "Help Desk Technician"
+				},
+				{
+					"code": "homemaker",
+					"description": "Homemaker"
+				},
+				{
+					"code": "home_builder",
+					"description": "Home Builder"
+				},
+				{
+					"code": "home_inspector",
+					"description": "Home Inspector"
+				},
+				{
+					"code": "hospital_administrator",
+					"description": "Hospital Administrator"
+				},
+				{
+					"code": "hostess",
+					"description": "Hostess"
+				},
+				{
+					"code": "hotel_guest_service_agent",
+					"description": "Hotel Guest Service Agent"
+				},
+				{
+					"code": "hotel_manager",
+					"description": "Hotel Manager"
+				},
+				{
+					"code": "human_resources",
+					"description": "Human Resources"
+				},
+				{
+					"code": "ice_cream_vendor",
+					"description": "Ice Cream Vendor"
+				},
+				{
+					"code": "income_tax_advisor",
+					"description": "Income Tax Advisor"
+				},
+				{
+					"code": "income_tax_preparer",
+					"description": "Income Tax Preparer"
+				},
+				{
+					"code": "information_systems_analyst",
+					"description": "Information Systems Analyst"
+				},
+				{
+					"code": "instructor",
+					"description": "Instructor"
+				},
+				{
+					"code": "insurance_claims_adjuster",
+					"description": "Insurance Claims Adjuster"
+				},
+				{
+					"code": "internal_revenue_service_agent",
+					"description": "Internal Revenue Service Agent"
+				},
+				{
+					"code": "interpreter",
+					"description": "Interpreter"
+				},
+				{
+					"code": "investment_services_rep",
+					"description": "Investment Services Rep"
+				},
+				{
+					"code": "jewel_or_stone_or_metal_worker",
+					"description": "Jewel Or Stone Or Metal Worker"
+				},
+				{
+					"code": "judge",
+					"description": "Judge"
+				},
+				{
+					"code": "landscaper",
+					"description": "Landscaper"
+				},
+				{
+					"code": "lawyer",
+					"description": "Lawyer"
+				},
+				{
+					"code": "law_enforcement_officer",
+					"description": "Law Enforcement Officer"
+				},
+				{
+					"code": "legal_assistant",
+					"description": "Legal Assistant"
+				},
+				{
+					"code": "librarian",
+					"description": "Librarian"
+				},
+				{
+					"code": "licensed_registered_nurse_lvn",
+					"description": "Licensed Registered Nurse LVN"
+				},
+				{
+					"code": "lifeguard",
+					"description": "Lifeguard"
+				},
+				{
+					"code": "livestock_buyer",
+					"description": "Livestock Buyer"
+				},
+				{
+					"code": "loan_officer",
+					"description": "Loan Officer"
+				},
+				{
+					"code": "locksmith_and_safe_repairer",
+					"description": "Locksmith and Safe Repairer"
+				},
+				{
+					"code": "machine_operator",
+					"description": "Machine Operator"
+				},
+				{
+					"code": "magician",
+					"description": "Magician"
+				},
+				{
+					"code": "maid_and_housekeeper",
+					"description": "Maid and Housekeeper"
+				},
+				{
+					"code": "maintenance_and_repair_worker",
+					"description": "Maintenance and Repair Worker"
+				},
+				{
+					"code": "management_consultant",
+					"description": "Management Consultant"
+				},
+				{
+					"code": "manager_or_supervisor",
+					"description": "Manager Or Supervisor"
+				},
+				{
+					"code": "manufactured_builiding_install",
+					"description": "Manufactured Builiding Install"
+				},
+				{
+					"code": "market_research_analyst",
+					"description": "Market Research Analyst"
+				},
+				{
+					"code": "massage_therapist",
+					"description": "Massage Therapist"
+				},
+				{
+					"code": "mechanic",
+					"description": "Mechanic"
+				},
+				{
+					"code": "mediator",
+					"description": "Mediator"
+				},
+				{
+					"code": "media_and_communication_worker",
+					"description": "Media and Communication Worker"
+				},
+				{
+					"code": "medical_assistant",
+					"description": "Medical Assistant"
+				},
+				{
+					"code": "medical_orderlies",
+					"description": "Medical Orderlies"
+				},
+				{
+					"code": "medical_or_health_services_manage",
+					"description": "Medical Or Health Services Manage"
+				},
+				{
+					"code": "medical_technician",
+					"description": "Medical Technician"
+				},
+				{
+					"code": "merchandise_distributor",
+					"description": "Merchandise Distributor"
+				},
+				{
+					"code": "meteorologist",
+					"description": "Meteorologist"
+				},
+				{
+					"code": "military_contractor",
+					"description": "Military Contractor"
+				},
+				{
+					"code": "military_serviceman",
+					"description": "Military Serviceman"
+				},
+				{
+					"code": "miner",
+					"description": "Miner"
+				},
+				{
+					"code": "minor",
+					"description": "Minor"
+				},
+				{
+					"code": "missionaries",
+					"description": "Missionaries"
+				},
+				{
+					"code": "model",
+					"description": "Model"
+				},
+				{
+					"code": "mortician",
+					"description": "Mortician"
+				},
+				{
+					"code": "musical_instrument_repairer",
+					"description": "Musical Instrument Repairer"
+				},
+				{
+					"code": "musician",
+					"description": "Musician"
+				},
+				{
+					"code": "nail_technician",
+					"description": "Nail Technician"
+				},
+				{
+					"code": "network_administrator",
+					"description": "Network Administrator"
+				},
+				{
+					"code": "news_anchor",
+					"description": "News Anchor"
+				},
+				{
+					"code": "nurse",
+					"description": "Nurse"
+				},
+				{
+					"code": "nurses_aide",
+					"description": "Nurses Aide"
+				},
+				{
+					"code": "nutritionist",
+					"description": "Nutritionist"
+				},
+				{
+					"code": "occupational_therapist",
+					"description": "Occupational Therapist"
+				},
+				{
+					"code": "office_assistant",
+					"description": "Office Assistant"
+				},
+				{
+					"code": "office_manager",
+					"description": "Office Manager"
+				},
+				{
+					"code": "oil_rigger",
+					"description": "Oil Rigger"
+				},
+				{
+					"code": "operations_analyst",
+					"description": "Operations Analyst"
+				},
+				{
+					"code": "operations_manager",
+					"description": "Operations Manager"
+				},
+				{
+					"code": "operator",
+					"description": "Operator"
+				},
+				{
+					"code": "packaging_or_filling_machine_oper",
+					"description": "Packaging Or Filling Machine Oper"
+				},
+				{
+					"code": "painter",
+					"description": "Painter"
+				},
+				{
+					"code": "paralegal",
+					"description": "Paralegal"
+				},
+				{
+					"code": "paramedic",
+					"description": "Paramedic"
+				},
+				{
+					"code": "parking_attendant",
+					"description": "Parking Attendant"
+				},
+				{
+					"code": "patient_care_tech",
+					"description": "Patient Care Tech"
+				},
+				{
+					"code": "paving_or_surfacing_equip_oper",
+					"description": "Paving Or Surfacing Equip Oper"
+				},
+				{
+					"code": "personal_financial_advisor",
+					"description": "Personal Financial Advisor"
+				},
+				{
+					"code": "pest_control",
+					"description": "Pest Control"
+				},
+				{
+					"code": "pharmacist",
+					"description": "Pharmacist"
+				},
+				{
+					"code": "pharmacy_clerk",
+					"description": "Pharmacy Clerk"
+				},
+				{
+					"code": "photographer",
+					"description": "Photographer"
+				},
+				{
+					"code": "physical_therapist",
+					"description": "Physical Therapist"
+				},
+				{
+					"code": "physician_and_surgeon",
+					"description": "Physician and Surgeon"
+				},
+				{
+					"code": "pilot",
+					"description": "Pilot"
+				},
+				{
+					"code": "pipefitter",
+					"description": "Pipefitter"
+				},
+				{
+					"code": "pipe_layer",
+					"description": "Pipe Layer"
+				},
+				{
+					"code": "plumber",
+					"description": "Plumber"
+				},
+				{
+					"code": "postal_worker",
+					"description": "Postal Worker"
+				},
+				{
+					"code": "private_investigator",
+					"description": "Private Investigator"
+				},
+				{
+					"code": "probation_officer",
+					"description": "Probation Officer"
+				},
+				{
+					"code": "product_specialist",
+					"description": "Product Specialist"
+				},
+				{
+					"code": "professional_athlete",
+					"description": "Professional Athlete"
+				},
+				{
+					"code": "project_manager",
+					"description": "Project Manager"
+				},
+				{
+					"code": "property_appraiser",
+					"description": "Property Appraiser"
+				},
+				{
+					"code": "property_manager",
+					"description": "Property Manager"
+				},
+				{
+					"code": "psychic",
+					"description": "Psychic"
+				},
+				{
+					"code": "pump_operator",
+					"description": "Pump Operator"
+				},
+				{
+					"code": "radio_disk_jockey",
+					"description": "Radio Disk Jockey"
+				},
+				{
+					"code": "radio_or_tower_equip_installer",
+					"description": "Radio Or Tower Equip Installer"
+				},
+				{
+					"code": "railroad_worker",
+					"description": "Railroad Worker"
+				},
+				{
+					"code": "rancher",
+					"description": "Rancher"
+				},
+				{
+					"code": "ranch_hand",
+					"description": "Ranch Hand"
+				},
+				{
+					"code": "rbfcu_employee",
+					"description": "RBFCU Employee"
+				},
+				{
+					"code": "realtor",
+					"description": "Realtor"
+				},
+				{
+					"code": "records_manager",
+					"description": "Records Manager"
+				},
+				{
+					"code": "recruiter",
+					"description": "Recruiter"
+				},
+				{
+					"code": "registered_nurse_rn",
+					"description": "Registered Nurse RN"
+				},
+				{
+					"code": "reporter",
+					"description": "Reporter"
+				},
+				{
+					"code": "repossessor",
+					"description": "Repossessor"
+				},
+				{
+					"code": "researcher",
+					"description": "Researcher"
+				},
+				{
+					"code": "restaurant_manager",
+					"description": "Restaurant Manager"
+				},
+				{
+					"code": "retail_manager",
+					"description": "Retail Manager"
+				},
+				{
+					"code": "retail_worker",
+					"description": "Retail Worker"
+				},
+				{
+					"code": "roofer",
+					"description": "Roofer"
+				},
+				{
+					"code": "sales_agent",
+					"description": "Sales Agent"
+				},
+				{
+					"code": "school_counselor",
+					"description": "School Counselor"
+				},
+				{
+					"code": "secretary",
+					"description": "Secretary"
+				},
+				{
+					"code": "security_and_firm_alarm_install",
+					"description": "Security and Firm Alarm Install"
+				},
+				{
+					"code": "security_officer",
+					"description": "Security Officer"
+				},
+				{
+					"code": "septic_tank_servicer",
+					"description": "Septic Tank Servicer"
+				},
+				{
+					"code": "sewer_pipe_cleaner",
+					"description": "Sewer Pipe Cleaner"
+				},
+				{
+					"code": "shoe_and_leather_worker",
+					"description": "Shoe and Leather Worker"
+				},
+				{
+					"code": "sketch_artist",
+					"description": "Sketch Artist"
+				},
+				{
+					"code": "social_worker",
+					"description": "Social Worker"
+				},
+				{
+					"code": "software_developer",
+					"description": "Software Developer"
+				},
+				{
+					"code": "speech_therapist",
+					"description": "Speech Therapist"
+				},
+				{
+					"code": "state_official",
+					"description": "State Official"
+				},
+				{
+					"code": "student",
+					"description": "Student"
+				},
+				{
+					"code": "surveyor",
+					"description": "Surveyor"
+				},
+				{
+					"code": "tailor_or_dressmaker_or_sewers",
+					"description": "Tailor Or Dressmaker Or Sewers"
+				},
+				{
+					"code": "tattoo_artist",
+					"description": "Tattoo Artist"
+				},
+				{
+					"code": "taxi_driver",
+					"description": "Taxi Driver"
+				},
+				{
+					"code": "tax_assossors",
+					"description": "Tax Assossors"
+				},
+				{
+					"code": "teacher_aide",
+					"description": "Teacher Aide"
+				},
+				{
+					"code": "teacher_or_professor",
+					"description": "Teacher Or Professor"
+				},
+				{
+					"code": "textile_worker",
+					"description": "Textile Worker"
+				},
+				{
+					"code": "theme_park_employee",
+					"description": "Theme Park Employee"
+				},
+				{
+					"code": "tour_guides",
+					"description": "Tour Guides"
+				},
+				{
+					"code": "translators",
+					"description": "Translators"
+				},
+				{
+					"code": "transportation_or_material_moving",
+					"description": "Transportation Or Material Moving"
+				},
+				{
+					"code": "travel_agent",
+					"description": "Travel Agent"
+				},
+				{
+					"code": "tree_trimmers",
+					"description": "Tree Trimmers"
+				},
+				{
+					"code": "truck_driver",
+					"description": "Truck Driver"
+				},
+				{
+					"code": "upholsterers",
+					"description": "Upholsterers"
+				},
+				{
+					"code": "veterinarian",
+					"description": "Veterinarian"
+				},
+				{
+					"code": "waiter",
+					"description": "Waiter"
+				},
+				{
+					"code": "warehouse_worker_attd",
+					"description": "Warehouse Worker Attd"
+				},
+				{
+					"code": "waste_management_worker",
+					"description": "Waste Management Worker"
+				},
+				{
+					"code": "web_developer",
+					"description": "Web Developer"
+				},
+				{
+					"code": "wedding_planner",
+					"description": "Wedding Planner"
+				},
+				{
+					"code": "welder",
+					"description": "Welder"
+				},
+				{
+					"code": "writer",
+					"description": "Writer"
+				},
+				{
+					"code": "xray_technician",
+					"description": "X-Ray Technician"
+				},
+				{
+					"code": "yoga_instructor",
+					"description": "Yoga Instructor"
+				},
+				{
+					"code": "youth_ministry_director",
+					"description": "Youth Ministry Director"
+				},
+				{
+					"code": "youth_program_director",
+					"description": "Youth Program Director"
+				},
+				{
+					"code": "zookeeper",
+					"description": "Zookeeper"
+				},
+				{
+					"code": "zoologist",
+					"description": "Zoologist"
+				}
+			]
+		}
+	],
+
+	"citizenships": [
+		{
+			"code": "US",
+			"description": "U.S. Citizen"
+		},
+		{
+			"code": "IND",
+			"description": "India Citizen"
+		}
+	],
+	"housingTypes": [
+		{
+			"code": "RE",
+			"description": "Rent"
+		},
+		{
+			"code": "OW",
+			"description": "Owner"
+		}
+	],
+	"roleTypes": [
+		{
+			"code": "TO",
+			"description": "Tax Owner"
+		}
+	],
+	"phoneTypes": [
+		{
+			"code": "MO",
+			"description": "Mobile"
+		},
+		{
+			"code": "HM",
+			"description": "Home"
+		}
+	],
+	"suffixTypes": [
+		{
+			"code": "SR",
+			"description": "Sr."
+		},
+		{
+			"code": "JR",
+			"description": "jr."
+		}
+	],
+	"annualIncomeRanges": [
+		{
+			"code": "10000",
+			"description": "$10000-$40000"
+		},
+		{
+			"code": "40000",
+			"description": "$40000-$70000"
+		},
+		{
+			"code": "70000",
+			"description": "$70000-$100000"
+		}
+	],
+	"securityQuestions": [
+		{
+			"code": "Sports",
+			"description": "What is your favourite sports name"
+		},
+		{
+			"code": "Family",
+			"description": "What is your grand father's last name"
+		},
+		{
+			"code": "Birth",
+			"description": "what is your birth place"
+		}
+	]
+}

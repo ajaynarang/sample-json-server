@@ -1,0 +1,20 @@
+{
+	"applicantEmails": [
+		{
+			"applicationId": "6031",
+			"applicantId": "6031",
+			"type": "PRI",
+			"email": "anarang@rbfcu.org",
+			"createdDateTime": "2019-02-01T18:25:43.511Z",
+			"updatedDateTime": "2019-02-01T18:25:43.511Z"
+		},
+		{
+			"applicationId": "6031",
+			"applicantId": "6031",
+			"type": "ALT",
+			"email": "anarang@rbfcu.org",
+			"createdDateTime": "2019-02-01T18:25:43.511Z",
+			"updatedDateTime": "2019-02-01T18:25:43.511Z"
+		}
+	]
+}

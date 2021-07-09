@@ -1,0 +1,55 @@
+{
+	"applicantIdentifications": [
+		{
+			"applicationId": "6031",
+			"applicantId": "6031",
+			"type": "drivers_license",
+			"desc": "drivers license",
+			"image": "",
+			"idNumber": "12345624",
+			"issuer": "",
+			"country": "USA",
+			"issuingState": "TX",
+			"issueDate": "2019-02-01T18:25:43.511Z",
+			"expiryDate": "2019-05-05T18:25:43.511Z",
+			"isVerified": "",
+			"isPrimary": "",
+			"createdDateTime": "2019-02-01T18:25:43.511Z",
+			"updatedDateTime": "2019-02-01T18:25:43.511Z"
+		},
+		{
+			"applicationId": "6031",
+			"applicantId": "6031",
+			"type": "passport",
+			"desc": "passport",
+			"image": "",
+			"idNumber": "12345624",
+			"issuer": "",
+			"country": "USA",
+			"issuingState": "TX",
+			"issueDate": "2019-02-01T18:25:43.511Z",
+			"expiryDate": "2019-05-05T18:25:43.511Z",
+			"isVerified": "",
+			"isPrimary": "",
+			"createdDateTime": "2019-02-01T18:25:43.511Z",
+			"updatedDateTime": "2019-02-01T18:25:43.511Z"
+		},
+		{
+			"applicationId": "6031",
+			"applicantId": "6031",
+			"type": "state_id",
+			"desc": "State ID",
+			"image": "",
+			"idNumber": "987654321",
+			"issuer": "",
+			"country": "USA",
+			"issuingState": "TX",
+			"issueDate": "2019-02-01T18:25:43.511Z",
+			"expiryDate": "2019-05-05T18:25:43.511Z",
+			"isVerified": "",
+			"isPrimary": "",
+			"createdDateTime": "2019-02-01T18:25:43.511Z",
+			"updatedDateTime": "2019-02-01T18:25:43.511Z"
+		}
+	]
+}

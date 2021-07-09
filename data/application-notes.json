@@ -1,0 +1,26 @@
+{
+	"notes": {
+		"readNotes": [
+			{
+				"noteEntityType": "UNUSED",
+				"note": "NADN-NARV",
+				"applicantId": "204627",
+				"applicationId": "558308",
+				"noteId": "277270",
+				"noteClassCode": "NADN",
+				"noteSubClassCode": "NARV",
+				"noteText": "Review needed due to the following reasons: \n\nAll required verifications have not passed.",
+				"createdDate": "2021-06-30T16:09:53",
+				"updatedDate": "2021-06-30T16:09:53",
+				"updatedBy": {
+					"id": "2475",
+					"name": {
+						"firstName": "Netbranch",
+						"lastName": "Serviceuser",
+						"fullName": "Netbranch Serviceuser"
+					}
+				}
+			}
+		]
+	}
+}

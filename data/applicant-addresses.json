@@ -1,0 +1,28 @@
+{
+		"applicantAddresses": [
+		{
+			"applicationId": "100",
+			"applicantId": "1",
+			"applicantAddressType": "PRIMARY",
+			"addressLine1": "1 randolf parkway",
+			"addressLine2": "apt 276",
+			"city": "live oak",
+			"stateCode": "TX",
+			"stateName": "Texas",
+			"zipcode": "47856",
+			"ismailingAddress": "yes"
+		},
+		{
+			"applicationId": "101",
+			"applicantId": "2",
+			"applicantAddressType": "SECONDARY",
+			"addressLine1": "37800 camden",
+			"addressLine2": "apt 486",
+			"city": "lowisevulle",
+			"stateCode": "VA",
+			"stateName": "Vargina",
+			"zipcode": "48569",
+			"ismailingAddress": "no"
+		}
+	]
+}

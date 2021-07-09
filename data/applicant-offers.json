@@ -1,0 +1,36 @@
+{
+	"applicantOffers": [
+		{
+			"applicationId": "100",
+			"applicantid": "1",
+			"offerType": "CC",
+			"approvedAmount": "10000",
+			"annualFee": "",
+			"apr": "12.15%",
+			"rate": "",
+			"imageUrl": "",
+			"image": "",
+			"termInMonths": "12",
+			"marketingVerbiage": "CashBack Rewards<br>2% cash back on all purchases",
+			"minimumBalance": "",
+			"productName": "CashBack Rewards",
+			"productType": "CC"
+		},
+		{
+			"applicationId": "100",
+			"applicantid": "1",
+			"offerType": "CC",
+			"approvedAmount": "20000",
+			"annualFee": "",
+			"apr": "9.20%",
+			"rate": "",
+			"imageUrl": "",
+			"image": "",
+			"termInMonths": "12",
+			"marketingVerbiage": "Premier Rate<br>2% cash back on all purchases",
+			"minimumBalance": "",
+			"productName": "Premier Rate",
+			"productType": "CC"
+		}
+	]
+}
